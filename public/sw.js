@@ -44,11 +44,12 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (
+    url.pathname === "/api/mmi/projects" ||
     url.pathname.startsWith("/mmi-data/") ||
     url.pathname.startsWith("/icons/") ||
     url.pathname.startsWith("/_next/static/")
   ) {
-    event.respondWith(cacheFirst(request));
+    event.respondWith(url.pathname === "/api/mmi/projects" ? networkFirst(request, "/mmi-data/projects.json") : cacheFirst(request));
   }
 });
 

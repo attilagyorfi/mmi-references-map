@@ -1,19 +1,12 @@
-import { readFile, writeFile } from "node:fs/promises";
-import path from "node:path";
-
 import { NextResponse } from "next/server";
 
 import { isAuthorized } from "@/mmi/lib/admin-auth";
-import { MmiDatasetSchema, MmiProjectSchema } from "@/mmi/lib/schema";
+import { readProjectDataset, upsertProject } from "@/mmi/lib/project-store";
+import { MmiProjectSchema } from "@/mmi/lib/schema";
+import type { MmiProject } from "@/mmi/types";
 
 export const runtime = "nodejs";
-
-const DATASET_PATH = path.join(
-  process.cwd(),
-  "public",
-  "mmi-data",
-  "projects.json",
-);
+export const dynamic = "force-dynamic";
 
 function unauthorized() {
   return NextResponse.json(
@@ -27,7 +20,7 @@ export async function GET(request: Request) {
     return unauthorized();
   }
 
-  const dataset = await readDataset();
+  const dataset = await readProjectDataset();
   return NextResponse.json(dataset);
 }
 
@@ -37,30 +30,7 @@ export async function PUT(request: Request) {
   }
 
   const body = await request.json();
-  const project = MmiProjectSchema.parse(body.project);
-  const dataset = await readDataset();
-  const index = dataset.projects.findIndex((item) => item.id === project.id);
-
-  const projects =
-    index === -1
-      ? [...dataset.projects, project]
-      : dataset.projects.map((item) => (item.id === project.id ? project : item));
-
-  const nextDataset = MmiDatasetSchema.parse({
-    ...dataset,
-    metadata: {
-      ...dataset.metadata,
-      generated_at: new Date().toISOString(),
-      project_count: projects.length,
-    },
-    projects: projects.sort((a, b) => Number(a.id) - Number(b.id)),
-  });
-
-  await writeFile(DATASET_PATH, `${JSON.stringify(nextDataset, null, 2)}\n`, "utf8");
+  const project = MmiProjectSchema.parse(body.project) as MmiProject;
+  const nextDataset = await upsertProject(project);
   return NextResponse.json(nextDataset);
-}
-
-async function readDataset() {
-  const raw = await readFile(DATASET_PATH, "utf8");
-  return MmiDatasetSchema.parse(JSON.parse(raw));
 }

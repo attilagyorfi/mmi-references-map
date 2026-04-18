@@ -120,7 +120,7 @@ export default function MmiAdmin() {
     setDataset(data);
     setSelectedId(normalized.id);
     setDraft(normalized);
-    setStatus("Saved to public/mmi-data/projects.json.");
+    setStatus("Saved.");
   }
 
   if (!authHeader || !dataset || !draft) {
@@ -128,7 +128,7 @@ export default function MmiAdmin() {
       <main className="mmi-admin">
         <section className="mmi-admin-login">
           <h1>MMI References Admin</h1>
-          <p>Log in to edit the local project dataset.</p>
+          <p>Log in to edit the MMI project dataset.</p>
           <label>
             Username
             <input
@@ -168,7 +168,7 @@ export default function MmiAdmin() {
       <header className="mmi-admin-header">
         <div>
           <h1>MMI References Admin</h1>
-          <p>{projects.length} projects in the local dataset</p>
+          <p>{projects.length} projects in the dataset</p>
         </div>
         <Link href="/">Open map</Link>
       </header>

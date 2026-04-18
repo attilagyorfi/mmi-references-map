@@ -10,11 +10,15 @@
     "test:mmi": "tsx --test tests/mmi/*.test.ts",
     "mmi:ingest": "tsx scripts/mmi/ingest.ts",
     "mmi:validate": "tsx scripts/mmi/validate.ts",
+    "mmi:db:init": "tsx scripts/mmi/db-init.ts",
+    "mmi:db:import": "tsx scripts/mmi/db-import.ts",
+    "mmi:db:export": "tsx scripts/mmi/db-export.ts",
     "mmi:pwa-assets": "tsx scripts/mmi/build-pwa-assets.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
     "next": "16.2.4",
+    "pg": "^8.20.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "slugify": "^1.6.9",
@@ -26,6 +30,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/topojson-client": "^3.1.5",

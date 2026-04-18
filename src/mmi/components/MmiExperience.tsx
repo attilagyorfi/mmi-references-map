@@ -37,7 +37,7 @@ export default function MmiExperience() {
     let mounted = true;
 
     Promise.all([
-      fetch("/mmi-data/projects.json").then((response) => response.json()),
+      fetchDataset(),
       fetch("/mmi-data/categories.json").then((response) => response.json()),
     ])
       .then(([projectData, categoryData]) => {
@@ -198,4 +198,19 @@ export default function MmiExperience() {
       </section>
     </main>
   );
+}
+
+async function fetchDataset() {
+  try {
+    const response = await fetch("/api/mmi/projects");
+
+    if (response.ok) {
+      return response.json();
+    }
+  } catch {
+    // The static bundle keeps presentation mode usable without a database API.
+  }
+
+  const fallbackResponse = await fetch("/mmi-data/projects.json");
+  return fallbackResponse.json();
 }

@@ -17,6 +17,7 @@ async function main() {
   const assets = unique([
     "/",
     "/admin",
+    "/api/mmi/projects",
     "/mmi-data/projects.json",
     "/mmi-data/categories.json",
     "/mmi-data/world-countries.geojson",
