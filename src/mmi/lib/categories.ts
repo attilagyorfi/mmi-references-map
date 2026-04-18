@@ -1,0 +1,114 @@
+import type { CategoryDefinition, MmiCategory } from "@/mmi/types";
+
+export const CATEGORY_DEFINITIONS: CategoryDefinition[] = [
+  {
+    id: "Industrial",
+    label_en: "Industrial",
+    label_hu: "Ipari",
+    label_zh: "工业",
+    color: "#526D78",
+  },
+  {
+    id: "Public / Civic",
+    label_en: "Public / Civic",
+    label_hu: "Közösségi / középület",
+    label_zh: "公共 / 市政",
+    color: "#7B8794",
+  },
+  {
+    id: "Residential",
+    label_en: "Residential",
+    label_hu: "Lakóépület",
+    label_zh: "住宅",
+    color: "#9A7D5D",
+  },
+  {
+    id: "Cement Industry",
+    label_en: "Cement Industry",
+    label_hu: "Cementipar",
+    label_zh: "水泥工业",
+    color: "#6F7865",
+  },
+  {
+    id: "Automotive",
+    label_en: "Automotive",
+    label_hu: "Autóipar",
+    label_zh: "汽车工业",
+    color: "#546A93",
+  },
+  {
+    id: "Food Industry",
+    label_en: "Food Industry",
+    label_hu: "Élelmiszeripar",
+    label_zh: "食品工业",
+    color: "#7C8A5A",
+  },
+  {
+    id: "Office / Business",
+    label_en: "Office / Business",
+    label_hu: "Iroda / üzleti",
+    label_zh: "办公 / 商务",
+    color: "#6B7280",
+  },
+  {
+    id: "Logistics / Warehouse",
+    label_en: "Logistics / Warehouse",
+    label_hu: "Logisztika / raktár",
+    label_zh: "物流 / 仓储",
+    color: "#5E7C86",
+  },
+  {
+    id: "Healthcare",
+    label_en: "Healthcare",
+    label_hu: "Egészségügy",
+    label_zh: "医疗",
+    color: "#6A8B83",
+  },
+  {
+    id: "Sports",
+    label_en: "Sports",
+    label_hu: "Sport",
+    label_zh: "体育",
+    color: "#8A6F55",
+  },
+  {
+    id: "Education",
+    label_en: "Education",
+    label_hu: "Oktatás",
+    label_zh: "教育",
+    color: "#687D92",
+  },
+  {
+    id: "Energy / Utilities",
+    label_en: "Energy / Utilities",
+    label_hu: "Energia / közmű",
+    label_zh: "能源 / 公用工程",
+    color: "#856D59",
+  },
+  {
+    id: "Mining / Materials",
+    label_en: "Mining / Materials",
+    label_hu: "Bányászat / alapanyag",
+    label_zh: "矿业 / 材料",
+    color: "#79756C",
+  },
+  {
+    id: "Other",
+    label_en: "Other",
+    label_hu: "Egyéb",
+    label_zh: "其他",
+    color: "#8B8F93",
+  },
+];
+
+export const CATEGORY_BY_ID = new Map(
+  CATEGORY_DEFINITIONS.map((category) => [category.id, category]),
+);
+
+export function getCategoryColor(category: MmiCategory): string {
+  return CATEGORY_BY_ID.get(category)?.color ?? CATEGORY_BY_ID.get("Other")!.color;
+}
+
+export function isMmiCategory(value: string): value is MmiCategory {
+  return CATEGORY_BY_ID.has(value as MmiCategory);
+}

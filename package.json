@@ -1,0 +1,38 @@
+{
+  "name": "mmi-references-map",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "eslint",
+    "test:mmi": "tsx --test tests/mmi/*.test.ts",
+    "mmi:ingest": "tsx scripts/mmi/ingest.ts",
+    "mmi:validate": "tsx scripts/mmi/validate.ts",
+    "mmi:pwa-assets": "tsx scripts/mmi/build-pwa-assets.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "slugify": "^1.6.9",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "world-countries": "^5.1.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/topojson-client": "^3.1.5",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

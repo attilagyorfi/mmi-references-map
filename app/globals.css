@@ -1,0 +1,810 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mmi-app {
+  --mmi-ink: #1f2933;
+  --mmi-muted: #66737d;
+  --mmi-line: #d5dddf;
+  --mmi-panel: #ffffff;
+  --mmi-surface: #eef3f4;
+  --mmi-map: #f8faf9;
+  min-height: 100svh;
+  background: var(--mmi-surface);
+  color-scheme: light;
+  color: var(--mmi-ink);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+.mmi-topbar {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid var(--mmi-line);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 16px 24px;
+  position: relative;
+  z-index: 10;
+}
+
+.mmi-brand {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  min-width: 0;
+}
+
+.mmi-brand img {
+  height: 42px;
+  object-fit: contain;
+  width: 112px;
+}
+
+.mmi-brand h1 {
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.mmi-brand p,
+.mmi-eyebrow,
+.mmi-panel-count {
+  color: var(--mmi-muted);
+  margin: 4px 0 0;
+}
+
+.mmi-actions,
+.mmi-filter-bar {
+  align-items: end;
+  display: flex;
+  gap: 12px;
+}
+
+.mmi-actions label,
+.mmi-filter-bar label {
+  display: grid;
+  gap: 5px;
+}
+
+.mmi-actions span,
+.mmi-filter-bar span {
+  color: var(--mmi-muted);
+  font-size: 11px;
+  font-weight: 650;
+  text-transform: uppercase;
+}
+
+.mmi-app select,
+.mmi-app input,
+.mmi-app button {
+  border-radius: 6px;
+  font: inherit;
+  letter-spacing: 0;
+}
+
+.mmi-app select,
+.mmi-app input {
+  background: #ffffff;
+  border: 1px solid #c8d1d5;
+  color: var(--mmi-ink);
+  min-height: 38px;
+  padding: 8px 10px;
+}
+
+.mmi-app button {
+  background: #ffffff;
+  border: 1px solid #bec9cd;
+  color: var(--mmi-ink);
+  cursor: pointer;
+  min-height: 38px;
+  padding: 8px 12px;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.mmi-app button:hover {
+  background: #f4f7f7;
+  border-color: #8fa0a7;
+}
+
+.mmi-actions button.active {
+  background: #263f50;
+  border-color: #263f50;
+  color: #ffffff;
+}
+
+.mmi-install-button {
+  align-self: end;
+  background: #263f50 !important;
+  border-color: #263f50 !important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.mmi-install-button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.mmi-install-button.installed {
+  background: #edf2f3 !important;
+  border-color: #c8d1d5 !important;
+  color: #384650 !important;
+}
+
+.mmi-filter-bar {
+  background: #f8faf9;
+  border-bottom: 1px solid var(--mmi-line);
+  flex-wrap: wrap;
+  padding: 14px 24px;
+}
+
+.mmi-filter-bar .mmi-search {
+  min-width: min(320px, 100%);
+}
+
+.mmi-workspace {
+  display: grid;
+  flex: 1;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 420px);
+  min-height: 0;
+}
+
+.mmi-map-shell {
+  background: var(--mmi-map);
+  min-height: 560px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mmi-map,
+.mmi-map-loading {
+  height: 100%;
+  min-height: calc(100svh - 138px);
+  width: 100%;
+}
+
+.mmi-map-loading {
+  align-items: center;
+  color: var(--mmi-muted);
+  display: flex;
+  justify-content: center;
+}
+
+.mmi-map {
+  background: var(--mmi-map);
+}
+
+.mmi-svg-map {
+  align-items: center;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  overscroll-behavior: contain;
+  padding: 34px 24px 84px;
+  touch-action: none;
+  user-select: none;
+}
+
+.mmi-svg-map:active {
+  cursor: grabbing;
+}
+
+.mmi-zoom-controls {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--mmi-line);
+  border-radius: 8px;
+  display: flex;
+  gap: 6px;
+  padding: 7px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  z-index: 520;
+}
+
+.mmi-zoom-controls button {
+  font-weight: 750;
+  min-height: 32px;
+  min-width: 34px;
+  padding: 5px 9px;
+}
+
+.mmi-svg-map svg {
+  display: block;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.mmi-map-ocean {
+  fill: #f8faf9;
+}
+
+.mmi-map-countries path {
+  fill: #dbe3e5;
+  stroke: #8f9da3;
+  stroke-linejoin: round;
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+}
+
+.mmi-svg-marker {
+  cursor: pointer;
+  outline: none;
+  pointer-events: auto;
+}
+
+.mmi-svg-marker-hit-area {
+  fill: transparent;
+  pointer-events: all;
+  stroke: transparent;
+}
+
+.mmi-svg-marker circle:not(.mmi-svg-marker-hit-area) {
+  fill: color-mix(in srgb, var(--marker-color) 88%, white);
+  stroke: #ffffff;
+  stroke-width: 1.4;
+  vector-effect: non-scaling-stroke;
+  filter: drop-shadow(0 3px 5px rgba(31, 41, 51, 0.18));
+  transition: r 160ms ease, stroke-width 160ms ease;
+}
+
+.mmi-svg-marker text {
+  fill: #ffffff;
+  font-weight: 750;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+.mmi-svg-marker:hover circle:not(.mmi-svg-marker-hit-area),
+.mmi-svg-marker:focus-visible circle:not(.mmi-svg-marker-hit-area),
+.mmi-svg-marker.selected circle:not(.mmi-svg-marker-hit-area) {
+  stroke-width: 2.2;
+}
+
+.mmi-svg-map.detailed .mmi-svg-marker circle:not(.mmi-svg-marker-hit-area) {
+  filter: drop-shadow(0 2px 3px rgba(31, 41, 51, 0.16));
+}
+
+.mmi-map-hover-card {
+  animation: mmi-hover-card-in 140ms ease-out both;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(213, 221, 223, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 18px 40px rgba(31, 41, 51, 0.18);
+  color: var(--mmi-ink);
+  display: grid;
+  gap: 12px;
+  max-height: min(300px, calc(100% - 32px));
+  max-width: min(300px, calc(100% - 32px));
+  overflow: hidden;
+  padding: 12px;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(14px, -50%);
+  z-index: 560;
+}
+
+.mmi-map-hover-card.single {
+  width: 280px;
+  grid-template-columns: 82px minmax(0, 1fr);
+}
+
+.mmi-map-hover-card img {
+  aspect-ratio: 4 / 3;
+  background: #edf2f3;
+  border-radius: 6px;
+  height: 64px;
+  object-fit: cover;
+  width: 82px;
+}
+
+.mmi-map-hover-card strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.mmi-map-hover-card p {
+  color: var(--mmi-muted);
+  font-size: 12px;
+  line-height: 1.45;
+  margin: 6px 0 0;
+  max-height: 52px;
+  overflow: hidden;
+}
+
+.mmi-map-hover-card.cluster {
+  min-width: 260px;
+  overflow: auto;
+  width: 300px;
+}
+
+.mmi-map-hover-card.cluster div {
+  display: grid;
+  gap: 9px;
+}
+
+.mmi-map-hover-card.cluster section {
+  display: grid;
+  gap: 4px;
+}
+
+.mmi-map-hover-card.cluster span {
+  color: var(--mmi-muted);
+  font-size: 11px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.mmi-map-hover-card.cluster ul {
+  display: grid;
+  gap: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mmi-map-hover-card.cluster li {
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+@keyframes mmi-hover-card-in {
+  from {
+    opacity: 0;
+    transform: translate(10px, -50%) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(14px, -50%) scale(1);
+  }
+}
+
+.mmi-map-stats {
+  align-items: baseline;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--mmi-line);
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  left: 20px;
+  padding: 10px 12px;
+  position: absolute;
+  top: 18px;
+  z-index: 500;
+}
+
+.mmi-map-stats strong {
+  font-size: 24px;
+}
+
+.mmi-map-stats span {
+  color: var(--mmi-muted);
+  margin-left: 8px;
+}
+
+.mmi-marker {
+  align-items: center;
+  background: color-mix(in srgb, var(--marker-color) 88%, white);
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 8px 18px rgba(31, 41, 51, 0.22);
+  color: #ffffff;
+  display: flex;
+  font-size: 13px;
+  font-weight: 750;
+  height: 34px;
+  justify-content: center;
+  min-height: 0;
+  padding: 0;
+  width: 34px;
+}
+
+.mmi-marker.selected {
+  outline: 3px solid rgba(38, 63, 80, 0.25);
+  transform: scale(1.08);
+}
+
+.mmi-legend {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--mmi-line);
+  border-radius: 8px;
+  bottom: 18px;
+  left: 20px;
+  max-width: min(720px, calc(100% - 40px));
+  padding: 14px;
+  position: absolute;
+  z-index: 500;
+}
+
+.mmi-legend h2 {
+  font-size: 12px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.mmi-legend div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.mmi-legend span {
+  align-items: center;
+  color: #384650;
+  display: inline-flex;
+  font-size: 12px;
+  gap: 6px;
+}
+
+.mmi-legend i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+}
+
+.mmi-panel {
+  background: var(--mmi-panel);
+  border-left: 1px solid var(--mmi-line);
+  max-height: calc(100svh - 138px);
+  overflow: auto;
+  padding: 26px;
+}
+
+.mmi-empty-panel {
+  align-items: center;
+  color: var(--mmi-muted);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.mmi-panel h2 {
+  font-size: 25px;
+  line-height: 1.16;
+  margin: 6px 0 16px;
+}
+
+.mmi-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.mmi-meta-row span {
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 9px;
+}
+
+.mmi-meta-row span + span {
+  background: #edf2f3;
+  color: var(--mmi-ink);
+}
+
+.mmi-fact {
+  border-top: 1px solid #e4e9eb;
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.mmi-fact dt {
+  color: var(--mmi-muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mmi-fact dd {
+  margin: 0;
+}
+
+.mmi-description {
+  color: #34434d;
+  line-height: 1.65;
+  margin: 18px 0;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.mmi-project-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.mmi-project-list button {
+  align-items: start;
+  display: grid;
+  gap: 2px 10px;
+  grid-template-columns: 10px 1fr;
+  justify-items: start;
+  text-align: left;
+}
+
+.mmi-project-list button span {
+  border-radius: 50%;
+  height: 10px;
+  margin-top: 6px;
+  width: 10px;
+}
+
+.mmi-project-list button small {
+  color: var(--mmi-muted);
+  grid-column: 2;
+}
+
+.mmi-gallery {
+  border-top: 1px solid #e4e9eb;
+  margin-top: 18px;
+  padding-top: 16px;
+}
+
+.mmi-gallery-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.mmi-gallery h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.mmi-gallery-header div {
+  display: flex;
+  gap: 8px;
+}
+
+.mmi-gallery img {
+  aspect-ratio: 4 / 3;
+  background: #edf2f3;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.mmi-source-link {
+  color: #263f50;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 18px;
+  text-decoration: none;
+}
+
+.mmi-source-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+  .mmi-topbar {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .mmi-actions {
+    flex-wrap: wrap;
+  }
+
+  .mmi-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .mmi-panel {
+    border-left: 0;
+    border-top: 1px solid var(--mmi-line);
+    max-height: none;
+  }
+
+  .mmi-map,
+  .mmi-map-loading {
+    min-height: 62svh;
+  }
+}
+
+@media (max-width: 640px) {
+  .mmi-topbar,
+  .mmi-filter-bar,
+  .mmi-panel {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mmi-filter-bar label,
+  .mmi-filter-bar button,
+  .mmi-filter-bar select,
+  .mmi-filter-bar input {
+    width: 100%;
+  }
+
+  .mmi-brand h1 {
+    font-size: 17px;
+  }
+
+  .mmi-brand img {
+    width: 92px;
+  }
+
+  .mmi-map-stats,
+  .mmi-legend {
+    left: 12px;
+    max-width: calc(100% - 24px);
+  }
+}
+
+.mmi-admin {
+  background: #eef3f4;
+  color: #1f2933;
+  min-height: 100svh;
+  padding: 24px;
+}
+
+.mmi-admin-login {
+  background: #ffffff;
+  border: 1px solid #d5dddf;
+  border-radius: 8px;
+  display: grid;
+  gap: 14px;
+  margin: 10svh auto 0;
+  max-width: 440px;
+  padding: 28px;
+}
+
+.mmi-admin h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.mmi-admin p {
+  color: #66737d;
+  margin: 0;
+}
+
+.mmi-admin label {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mmi-admin input,
+.mmi-admin textarea,
+.mmi-admin select {
+  background: #ffffff;
+  border: 1px solid #c8d1d5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #1f2933;
+  font: inherit;
+  font-weight: 400;
+  min-height: 38px;
+  min-width: 0;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.mmi-admin textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.mmi-admin button,
+.mmi-admin a {
+  align-items: center;
+  background: #263f50;
+  border: 1px solid #263f50;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 38px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.mmi-admin-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 18px;
+  max-width: 1320px;
+}
+
+.mmi-admin-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.mmi-admin-list,
+.mmi-admin-form {
+  background: #ffffff;
+  border: 1px solid #d5dddf;
+  border-radius: 8px;
+  min-width: 0;
+  padding: 18px;
+}
+
+.mmi-admin-list {
+  align-self: start;
+  display: grid;
+  gap: 12px;
+  position: sticky;
+  top: 18px;
+}
+
+.mmi-admin-form {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.mmi-admin-form label {
+  min-width: 0;
+}
+
+.mmi-admin-form label:has(textarea),
+.mmi-admin-form button {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 900px) {
+  .mmi-admin-grid,
+  .mmi-admin-form {
+    grid-template-columns: 1fr;
+  }
+
+  .mmi-admin-header {
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mmi-admin-list {
+    position: static;
+  }
+}
