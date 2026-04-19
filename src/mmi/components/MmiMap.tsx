@@ -75,6 +75,8 @@ export default function MmiMap({
   const [zoom, setZoom] = useState(1);
   const [center, setCenter] = useState<[number, number]>([WIDTH / 2, HEIGHT / 2]);
   const [hoveredGroupId, setHoveredGroupId] = useState<string | null>(null);
+  const [svgWidth, setSvgWidth] = useState(WIDTH);
+  const svgRef = useRef<SVGSVGElement | null>(null);
   const drag = useRef<DragState | null>(null);
   const pointers = useRef<Map<number, PointerPoint>>(new Map());
   const pinch = useRef<PinchState | null>(null);
@@ -99,6 +101,28 @@ export default function MmiMap({
     };
   }, []);
 
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg) {
+      return;
+    }
+
+    const updateSize = () => {
+      const width = svg.getBoundingClientRect().width;
+      if (width > 0) {
+        setSvgWidth(width);
+      }
+    };
+
+    updateSize();
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(svg);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   const paths = useMemo(
     () =>
       features
@@ -116,9 +140,18 @@ export default function MmiMap({
   const clampedCenter = clampCenter(center, viewWidth, viewHeight);
   const viewX = clamp(clampedCenter[0] - viewWidth / 2, 0, WIDTH - viewWidth);
   const viewY = clamp(clampedCenter[1] - viewHeight / 2, 0, HEIGHT - viewHeight);
-  const singleMarkerRadius = Math.max(0.28, 8.5 / zoom);
-  const clusterMarkerRadius = Math.max(0.42, 12 / zoom);
-  const fontSize = Math.max(0.52, 8.5 / zoom);
+  const pixelsPerSvgUnit = Math.max(svgWidth / viewWidth, 0.001);
+  const isCompactMap = svgWidth < 560;
+  const singleMarkerRadius = screenPixelsToSvgUnits(
+    isCompactMap ? 11 : 9.5,
+    pixelsPerSvgUnit,
+  );
+  const clusterMarkerRadius = screenPixelsToSvgUnits(
+    isCompactMap ? 15 : 13,
+    pixelsPerSvgUnit,
+  );
+  const fontSize = screenPixelsToSvgUnits(isCompactMap ? 11 : 10, pixelsPerSvgUnit);
+  const hitAreaRadius = screenPixelsToSvgUnits(isCompactMap ? 24 : 18, pixelsPerSvgUnit);
   const markerPositions = useMemo(
     () => buildMarkerPositions(groups),
     [groups],
@@ -307,7 +340,7 @@ export default function MmiMap({
           {t.zoomReset}
         </button>
       </div>
-      <svg viewBox={`${viewX} ${viewY} ${viewWidth} ${viewHeight}`} role="img">
+      <svg ref={svgRef} viewBox={`${viewX} ${viewY} ${viewWidth} ${viewHeight}`} role="img">
         <rect width={WIDTH} height={HEIGHT} className="mmi-map-ocean" />
         <g className="mmi-map-countries">
           {paths.map((path) => (
@@ -367,7 +400,7 @@ export default function MmiMap({
                 tabIndex={0}
                 aria-label={label}
               >
-                <circle className="mmi-svg-marker-hit-area" r={Math.max(markerRadius * 1.9, 10 / zoom)} />
+                <circle className="mmi-svg-marker-hit-area" r={Math.max(markerRadius * 1.65, hitAreaRadius)} />
                 <circle r={markerRadius} />
                 {isCluster ? (
                   <text fontSize={fontSize} dy={fontSize * 0.32}>
@@ -554,6 +587,10 @@ function getMidpoint(points: PointerPoint[]): PointerPoint {
     x: (points[0].x + points[1].x) / 2,
     y: (points[0].y + points[1].y) / 2,
   };
+}
+
+function screenPixelsToSvgUnits(pixels: number, pixelsPerSvgUnit: number): number {
+  return pixels / pixelsPerSvgUnit;
 }
 
 function groupProjectsByCategory(projects: MmiProject[]): Array<[MmiProject["category_primary"], MmiProject[]]> {
