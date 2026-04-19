@@ -200,7 +200,9 @@ export default function MmiMap({
           return;
         }
 
-        if ((event.target as Element).closest(".mmi-svg-marker, .mmi-zoom-controls")) {
+        const target = event.target as Element;
+        const startsOnMarker = Boolean(target.closest(".mmi-svg-marker"));
+        if (target.closest(".mmi-zoom-controls") || (startsOnMarker && event.pointerType !== "touch")) {
           return;
         }
 
