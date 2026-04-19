@@ -228,6 +228,7 @@ body {
   right: 20px;
   top: 18px;
   z-index: 520;
+  touch-action: manipulation;
 }
 
 .mmi-zoom-controls button {
@@ -235,6 +236,7 @@ body {
   min-height: 32px;
   min-width: 34px;
   padding: 5px 9px;
+  touch-action: manipulation;
 }
 
 .mmi-svg-map svg {
@@ -628,6 +630,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .mmi-map-shell {
+    min-height: min(68svh, 620px);
+  }
+
   .mmi-panel {
     border-left: 0;
     border-top: 1px solid var(--mmi-line);
@@ -636,7 +642,8 @@ body {
 
   .mmi-map,
   .mmi-map-loading {
-    min-height: 62svh;
+    height: 68svh;
+    min-height: 420px;
   }
 }
 
@@ -663,10 +670,73 @@ body {
     width: 92px;
   }
 
+  .mmi-actions,
+  .mmi-actions label,
+  .mmi-actions select,
+  .mmi-actions button {
+    width: 100%;
+  }
+
+  .mmi-map-shell {
+    min-height: 58svh;
+  }
+
+  .mmi-map,
+  .mmi-map-loading {
+    height: 58svh;
+    min-height: 360px;
+  }
+
+  .mmi-svg-map {
+    padding: 58px 8px 104px;
+  }
+
   .mmi-map-stats,
   .mmi-legend {
     left: 12px;
     max-width: calc(100% - 24px);
+  }
+
+  .mmi-map-stats {
+    font-size: 12px;
+    padding: 8px 10px;
+    top: 12px;
+  }
+
+  .mmi-map-stats strong {
+    font-size: 18px;
+  }
+
+  .mmi-zoom-controls {
+    right: 12px;
+    top: 12px;
+  }
+
+  .mmi-legend {
+    bottom: 12px;
+    max-height: 86px;
+    overflow: auto;
+    padding: 10px;
+  }
+
+  .mmi-legend h2 {
+    margin-bottom: 7px;
+  }
+
+  .mmi-map-hover-card {
+    max-width: calc(100% - 24px);
+    transform: translate(0, -50%);
+    width: 260px;
+  }
+
+  .mmi-map-hover-card.single {
+    grid-template-columns: 70px minmax(0, 1fr);
+    width: 260px;
+  }
+
+  .mmi-map-hover-card img {
+    height: 56px;
+    width: 70px;
   }
 }
 

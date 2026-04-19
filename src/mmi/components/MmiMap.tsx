@@ -44,6 +44,17 @@ type DragState = {
   moved: boolean;
 };
 
+type PointerPoint = {
+  x: number;
+  y: number;
+};
+
+type PinchState = {
+  distance: number;
+  zoom: number;
+  mapPoint: [number, number];
+};
+
 const WIDTH = 1200;
 const HEIGHT = 620;
 const MIN_LAT = -58;
@@ -65,6 +76,8 @@ export default function MmiMap({
   const [center, setCenter] = useState<[number, number]>([WIDTH / 2, HEIGHT / 2]);
   const [hoveredGroupId, setHoveredGroupId] = useState<string | null>(null);
   const drag = useRef<DragState | null>(null);
+  const pointers = useRef<Map<number, PointerPoint>>(new Map());
+  const pinch = useRef<PinchState | null>(null);
   const hoverHideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -160,6 +173,21 @@ export default function MmiMap({
 
         event.preventDefault();
         event.currentTarget.setPointerCapture(event.pointerId);
+        pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+
+        if (pointers.current.size >= 2) {
+          const bounds = event.currentTarget.getBoundingClientRect();
+          const activePointers = [...pointers.current.values()].slice(-2);
+          pinch.current = createPinchState(
+            activePointers,
+            bounds,
+            zoom,
+            clampedCenter,
+          );
+          drag.current = null;
+          return;
+        }
+
         drag.current = {
           pointerId: event.pointerId,
           startX: event.clientX,
@@ -169,11 +197,43 @@ export default function MmiMap({
         };
       }}
       onPointerMove={(event) => {
+        if (!pointers.current.has(event.pointerId)) {
+          return;
+        }
+
+        pointers.current.set(event.pointerId, { x: event.clientX, y: event.clientY });
+        const bounds = event.currentTarget.getBoundingClientRect();
+
+        if (pointers.current.size >= 2 && pinch.current) {
+          event.preventDefault();
+          const activePointers = [...pointers.current.values()].slice(-2);
+          const nextDistance = getDistance(activePointers);
+          const nextZoom = clamp(
+            pinch.current.zoom * (nextDistance / Math.max(pinch.current.distance, 1)),
+            MIN_ZOOM,
+            MAX_ZOOM,
+          );
+          const midpoint = getMidpoint(activePointers);
+          const nextViewWidth = WIDTH / nextZoom;
+          const nextViewHeight = HEIGHT / nextZoom;
+          const nextCenter: [number, number] = [
+            pinch.current.mapPoint[0] -
+              ((midpoint.x - bounds.left) / bounds.width) * nextViewWidth +
+              nextViewWidth / 2,
+            pinch.current.mapPoint[1] -
+              ((midpoint.y - bounds.top) / bounds.height) * nextViewHeight +
+              nextViewHeight / 2,
+          ];
+
+          setZoom(nextZoom);
+          setCenter(clampCenter(nextCenter, nextViewWidth, nextViewHeight));
+          return;
+        }
+
         if (!drag.current || drag.current.pointerId !== event.pointerId) {
           return;
         }
 
-        const bounds = event.currentTarget.getBoundingClientRect();
         const deltaX = ((event.clientX - drag.current.startX) / bounds.width) * viewWidth;
         const deltaY = ((event.clientY - drag.current.startY) / bounds.height) * viewHeight;
         if (Math.abs(event.clientX - drag.current.startX) > 3 || Math.abs(event.clientY - drag.current.startY) > 3) {
@@ -188,12 +248,25 @@ export default function MmiMap({
         );
       }}
       onPointerUp={(event) => {
+        pointers.current.delete(event.pointerId);
+        pinch.current = null;
         if (drag.current?.pointerId === event.pointerId) {
           drag.current = null;
         }
       }}
-      onPointerCancel={() => {
+      onPointerCancel={(event) => {
+        pointers.current.delete(event.pointerId);
+        pinch.current = null;
         drag.current = null;
+      }}
+      onPointerLeave={(event) => {
+        if (pointers.current.has(event.pointerId)) {
+          pointers.current.delete(event.pointerId);
+          pinch.current = null;
+        }
+        if (drag.current?.pointerId === event.pointerId) {
+          drag.current = null;
+        }
       }}
       onAuxClick={(event) => {
         event.preventDefault();
@@ -439,6 +512,48 @@ function buildMarkerPositions(groups: CountryProjectGroup[]): Map<string, [numbe
   return new Map(
     groups.map((group) => [group.id, project(group.longitude, group.latitude)] as const),
   );
+}
+
+function createPinchState(
+  points: PointerPoint[],
+  bounds: DOMRect,
+  zoom: number,
+  center: [number, number],
+): PinchState {
+  const viewWidth = WIDTH / zoom;
+  const viewHeight = HEIGHT / zoom;
+  const viewX = clamp(center[0] - viewWidth / 2, 0, WIDTH - viewWidth);
+  const viewY = clamp(center[1] - viewHeight / 2, 0, HEIGHT - viewHeight);
+  const midpoint = getMidpoint(points);
+  const mapPoint: [number, number] = [
+    viewX + ((midpoint.x - bounds.left) / bounds.width) * viewWidth,
+    viewY + ((midpoint.y - bounds.top) / bounds.height) * viewHeight,
+  ];
+
+  return {
+    distance: getDistance(points),
+    zoom,
+    mapPoint,
+  };
+}
+
+function getDistance(points: PointerPoint[]): number {
+  if (points.length < 2) {
+    return 1;
+  }
+
+  return Math.hypot(points[0].x - points[1].x, points[0].y - points[1].y);
+}
+
+function getMidpoint(points: PointerPoint[]): PointerPoint {
+  if (points.length < 2) {
+    return points[0] ?? { x: 0, y: 0 };
+  }
+
+  return {
+    x: (points[0].x + points[1].x) / 2,
+    y: (points[0].y + points[1].y) / 2,
+  };
 }
 
 function groupProjectsByCategory(projects: MmiProject[]): Array<[MmiProject["category_primary"], MmiProject[]]> {
