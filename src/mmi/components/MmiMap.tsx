@@ -66,6 +66,7 @@ const MIN_LAT = -58;
 const MAX_LAT = 82;
 const MIN_ZOOM = 1;
 const MAX_ZOOM = 32;
+const WORLD_MAP_URL = "/mmi-data/world-countries.geojson?v=natural-earth-50m-2026-04-20";
 
 export default function MmiMap({
   groups,
@@ -90,7 +91,7 @@ export default function MmiMap({
   useEffect(() => {
     let mounted = true;
 
-    fetch("/mmi-data/world-countries.geojson")
+    fetch(WORLD_MAP_URL)
       .then((response) => response.json() as Promise<GeoJson>)
       .then((geoJson) => {
         if (mounted) {

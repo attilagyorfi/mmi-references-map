@@ -20,7 +20,7 @@ async function main() {
     "/api/mmi/projects",
     "/mmi-data/projects.json",
     "/mmi-data/categories.json",
-    "/mmi-data/world-countries.geojson",
+    "/mmi-data/world-countries.geojson?v=natural-earth-50m-2026-04-20",
     "/mmi-data/mmi-logo-30ev.png",
     "/mmi-data/mmi-app.webmanifest",
     "/icons/mmi-icon-192.png",
