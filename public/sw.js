@@ -1,4 +1,4 @@
-const CACHE_VERSION = "mmi-pwa-v1";
+const CACHE_VERSION = "mmi-pwa-v2";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const ASSET_MANIFEST = "/mmi-data/pwa-assets.json";

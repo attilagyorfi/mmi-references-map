@@ -27,7 +27,12 @@ type Geometry = {
 
 type GeoFeature = {
   type: "Feature";
-  properties?: { name?: string };
+  properties?: {
+    name?: string;
+    NAME?: string;
+    NAME_LONG?: string;
+    ADMIN?: string;
+  };
   geometry: Geometry | null;
 };
 
@@ -127,8 +132,8 @@ export default function MmiMap({
     () =>
       features
         .map((feature, index) => ({
-          id: `${feature.properties?.name ?? "country"}-${index}`,
-          name: feature.properties?.name ?? "",
+          id: `${getFeatureName(feature) || "country"}-${index}`,
+          name: getFeatureName(feature),
           d: feature.geometry ? geometryToPath(feature.geometry) : "",
         }))
         .filter((path) => path.d),
@@ -488,6 +493,16 @@ function geometryToPath(geometry: Geometry): string {
   return (geometry.coordinates as number[][][][])
     .map((polygon) => polygonToPath(polygon))
     .join(" ");
+}
+
+function getFeatureName(feature: GeoFeature): string {
+  return (
+    feature.properties?.name ??
+    feature.properties?.NAME_LONG ??
+    feature.properties?.ADMIN ??
+    feature.properties?.NAME ??
+    ""
+  );
 }
 
 function polygonToPath(polygon: number[][][]): string {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T18:46:57.658Z",
+  "generated_at": "2026-04-20T17:22:34.317Z",
   "strategy": "Core app assets and first project thumbnails are pre-cached. Full galleries are cached on first view.",
   "assets": [
     "/",
