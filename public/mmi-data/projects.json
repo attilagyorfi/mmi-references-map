@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-18T11:43:50.026Z",
+    "generated_at": "2026-04-21T12:46:10.431Z",
     "source_pages": [
       "https://mmernoki.hu/references",
       "https://mmernoki.hu/referenciak"
     ],
-    "project_count": 51
+    "project_count": 72
   },
   "projects": [
     {
@@ -103,6 +103,11 @@
           "url": "https://mmernoki.hu/storage/1698126481-39228006.webp",
           "local_path": "/mmi-data/images/1/13.webp",
           "alt": "Märker Zement - Project „Ofen 8” New clinker line"
+        },
+        {
+          "url": "https://mmi.local/imported/1/01.jpg",
+          "local_path": "/mmi-data/images/imported/1/01.jpg",
+          "alt": "1"
         }
       ],
       "tags": [
@@ -110,7 +115,8 @@
         "Germany",
         "Europe",
         "Harburg",
-        "A Structural design of all steel structures, including workshop design"
+        "A Structural design of all steel structures, including workshop design",
+        "excel-import"
       ]
     },
     {
@@ -243,6 +249,16 @@
           "url": "https://mmernoki.hu/storage/1701680635-60161089.webp",
           "local_path": "/mmi-data/images/2/20.webp",
           "alt": "Schaeffler Savaria - E-mobility factory"
+        },
+        {
+          "url": "https://mmi.local/imported/2/01.jpg",
+          "local_path": "/mmi-data/images/imported/2/01.jpg",
+          "alt": "2"
+        },
+        {
+          "url": "https://mmi.local/imported/2/02.jpg",
+          "local_path": "/mmi-data/images/imported/2/02.jpg",
+          "alt": "2"
         }
       ],
       "tags": [
@@ -250,7 +266,8 @@
         "Hungary",
         "Europe",
         "Szombathely",
-        "Complete general design in addition to architectural and structural design"
+        "Complete general design in addition to architectural and structural design",
+        "excel-import"
       ]
     },
     {
@@ -338,6 +355,11 @@
           "url": "https://mmernoki.hu/storage/1695642032-1486651660.webp",
           "local_path": "/mmi-data/images/3/11.webp",
           "alt": "NT - Sunflower processing plant"
+        },
+        {
+          "url": "https://mmi.local/imported/3/01.jpg",
+          "local_path": "/mmi-data/images/imported/3/01.jpg",
+          "alt": "3"
         }
       ],
       "tags": [
@@ -345,7 +367,8 @@
         "Hungary",
         "Europe",
         "Kiskunfélegyháza",
-        "General, Architecture, Structural design, Building permit, Detailed design, Manufacture"
+        "General, Architecture, Structural design, Building permit, Detailed design, Manufacture",
+        "excel-import"
       ]
     },
     {
@@ -1073,6 +1096,11 @@
           "url": "https://mmernoki.hu/storage/1695644405-273622568.webp",
           "local_path": "/mmi-data/images/9/19.webp",
           "alt": "AmoudaCiment Cement Plant"
+        },
+        {
+          "url": "https://mmi.local/imported/9/01.jpg",
+          "local_path": "/mmi-data/images/imported/9/01.jpg",
+          "alt": "9"
         }
       ],
       "tags": [
@@ -1080,7 +1108,8 @@
         "Algeria",
         "Africa",
         "Gueltat Sidi Saad",
-        "Detailed structural design"
+        "Detailed structural design",
+        "excel-import"
       ]
     },
     {
@@ -1398,6 +1427,11 @@
           "url": "https://mmernoki.hu/storage/1695645066-1632779420.webp",
           "local_path": "/mmi-data/images/12/14.webp",
           "alt": "Júlia Malom - Flour mill plant extension"
+        },
+        {
+          "url": "https://mmi.local/imported/12/01.jpg",
+          "local_path": "/mmi-data/images/imported/12/01.jpg",
+          "alt": "12"
         }
       ],
       "tags": [
@@ -1405,7 +1439,8 @@
         "Hungary",
         "Europe",
         "Kunszállás",
-        "General, Architecture, Structural design, Building permit, Detailed design, Manufacture"
+        "General, Architecture, Structural design, Building permit, Detailed design, Manufacture",
+        "excel-import"
       ]
     },
     {
@@ -1668,6 +1703,11 @@
           "url": "https://mmernoki.hu/storage/1695645422-165888504.webp",
           "local_path": "/mmi-data/images/14/19.webp",
           "alt": "Kronospan - OSB plant"
+        },
+        {
+          "url": "https://mmi.local/imported/14/01.jpg",
+          "local_path": "/mmi-data/images/imported/14/01.jpg",
+          "alt": "14"
         }
       ],
       "tags": [
@@ -1675,7 +1715,8 @@
         "Poland",
         "Europe",
         "Srzelce Opolskie",
-        "General planning, Building permit plans, Construction plans, Tender plans"
+        "General planning, Building permit plans, Construction plans, Tender plans",
+        "excel-import"
       ]
     },
     {
@@ -2282,6 +2323,11 @@
           "url": "https://mmernoki.hu/storage/1763649162-90088477.webp",
           "local_path": "/mmi-data/images/19/18.webp",
           "alt": "Királyegyháza Cement Plant"
+        },
+        {
+          "url": "https://mmi.local/imported/19/01.png",
+          "local_path": "/mmi-data/images/imported/19/01.png",
+          "alt": "19"
         }
       ],
       "tags": [
@@ -2289,7 +2335,8 @@
         "Hungary",
         "Europe",
         "Királyegyháza",
-        "General planning, Building permit plans, Construction plans"
+        "General planning, Building permit plans, Construction plans",
+        "excel-import"
       ]
     },
     {
@@ -2552,6 +2599,11 @@
           "url": "https://mmernoki.hu/storage/1695648350-1559209377.webp",
           "local_path": "/mmi-data/images/21/19.webp",
           "alt": "Agrograin - Grain storage & Port"
+        },
+        {
+          "url": "https://mmi.local/imported/21/01.jpg",
+          "local_path": "/mmi-data/images/imported/21/01.jpg",
+          "alt": "21"
         }
       ],
       "tags": [
@@ -2559,7 +2611,8 @@
         "Hungary",
         "Europe",
         "Dunaföldvár",
-        "Full-scope design, Designs for approval, Tendering and Final designs"
+        "Full-scope design, Designs for approval, Tendering and Final designs",
+        "excel-import"
       ]
     },
     {
@@ -3342,6 +3395,11 @@
           "url": "https://mmernoki.hu/storage/1695649929-1931835614.webp",
           "local_path": "/mmi-data/images/28/19.webp",
           "alt": "DDC - Cement Mill"
+        },
+        {
+          "url": "https://mmi.local/imported/28/01.jpg",
+          "local_path": "/mmi-data/images/imported/28/01.jpg",
+          "alt": "28"
         }
       ],
       "tags": [
@@ -3349,7 +3407,8 @@
         "Hungary",
         "Europe",
         "Vác",
-        "General planning, Building permit plans, Construction plans"
+        "General planning, Building permit plans, Construction plans",
+        "excel-import"
       ]
     },
     {
@@ -4090,6 +4149,31 @@
           "url": "https://mmernoki.hu/storage/1695651613-1581216318.webp",
           "local_path": "/mmi-data/images/37/06.webp",
           "alt": "DDC - Clinker Silo"
+        },
+        {
+          "url": "https://mmi.local/imported/37/01.jpg",
+          "local_path": "/mmi-data/images/imported/37/01.jpg",
+          "alt": "37"
+        },
+        {
+          "url": "https://mmi.local/imported/37/02.jpg",
+          "local_path": "/mmi-data/images/imported/37/02.jpg",
+          "alt": "37"
+        },
+        {
+          "url": "https://mmi.local/imported/37/03.png",
+          "local_path": "/mmi-data/images/imported/37/03.png",
+          "alt": "37"
+        },
+        {
+          "url": "https://mmi.local/imported/37/04.jpg",
+          "local_path": "/mmi-data/images/imported/37/04.jpg",
+          "alt": "37"
+        },
+        {
+          "url": "https://mmi.local/imported/37/05.png",
+          "local_path": "/mmi-data/images/imported/37/05.png",
+          "alt": "37"
         }
       ],
       "tags": [
@@ -4097,7 +4181,8 @@
         "Hungary",
         "Europe",
         "Beremend",
-        "Full-scope design, Planning permission, Detailed design"
+        "Full-scope design, Planning permission, Detailed design",
+        "excel-import"
       ]
     },
     {
@@ -4450,6 +4535,11 @@
           "url": "https://mmernoki.hu/storage/1737533883-2100381306.jpg",
           "local_path": "/mmi-data/images/41/19.jpg",
           "alt": "BMW – Debrecen plant"
+        },
+        {
+          "url": "https://mmi.local/imported/41/01.jpg",
+          "local_path": "/mmi-data/images/imported/41/01.jpg",
+          "alt": "41"
         }
       ],
       "tags": [
@@ -4457,7 +4547,8 @@
         "Hungary",
         "Europe",
         "Debrecen",
-        "Architectural and structural design and production design"
+        "Architectural and structural design and production design",
+        "excel-import"
       ]
     },
     {
@@ -4490,13 +4581,20 @@
       "project_manager": null,
       "source_url": "https://mmernoki.hu/references/42",
       "source_url_hu": "https://mmernoki.hu/referenciak/42",
-      "images": [],
+      "images": [
+        {
+          "url": "https://mmi.local/imported/42/01.jpg",
+          "local_path": "/mmi-data/images/imported/42/01.jpg",
+          "alt": "42"
+        }
+      ],
       "tags": [
         "Cement Industry",
         "Algeria",
         "Africa",
         "Relizane",
-        "Structural and architectural design plans"
+        "Structural and architectural design plans",
+        "excel-import"
       ]
     },
     {
@@ -4551,7 +4649,8 @@
         "Cuba",
         "Americas",
         "Nuevitas",
-        "Structural and architectural design plans"
+        "Structural and architectural design plans",
+        "excel-import"
       ]
     },
     {
@@ -4799,6 +4898,11 @@
           "url": "https://mmernoki.hu/storage/1705049110-125725254.webp",
           "local_path": "/mmi-data/images/45/20.webp",
           "alt": "Nestlé – Balaton PPVD Expansion of dry food plant"
+        },
+        {
+          "url": "https://mmi.local/imported/45/01.jpg",
+          "local_path": "/mmi-data/images/imported/45/01.jpg",
+          "alt": "45"
         }
       ],
       "tags": [
@@ -4806,7 +4910,8 @@
         "Hungary",
         "Europe",
         "Bük",
-        "General, Architecture, Support structure, Licensing, Detailed design, manufacture"
+        "General, Architecture, Support structure, Licensing, Detailed design, manufacture",
+        "excel-import"
       ]
     },
     {
@@ -4894,6 +4999,11 @@
           "url": "https://mmernoki.hu/storage/1701680081-1838654728.jpg",
           "local_path": "/mmi-data/images/48/11.jpg",
           "alt": "Power Cement new cement plant"
+        },
+        {
+          "url": "https://mmi.local/imported/48/01.png",
+          "local_path": "/mmi-data/images/imported/48/01.png",
+          "alt": "48"
         }
       ],
       "tags": [
@@ -4901,7 +5011,8 @@
         "Pakistan",
         "Asia",
         "Jamshoro",
-        "Detailed structural design"
+        "Detailed structural design",
+        "excel-import"
       ]
     },
     {
@@ -5169,6 +5280,11 @@
           "url": "https://mmernoki.hu/storage/1737117778-1590370311.png",
           "local_path": "/mmi-data/images/52/03.png",
           "alt": "Continental Hungária Kft. –Office Building, High-Bay Warehouse, and Connecting Corridor"
+        },
+        {
+          "url": "https://mmi.local/imported/52/01.png",
+          "local_path": "/mmi-data/images/imported/52/01.png",
+          "alt": "52"
         }
       ],
       "tags": [
@@ -5176,7 +5292,8 @@
         "Hungary",
         "Europe",
         "Budapest",
-        "Complete general design, including architectural and structural design"
+        "Complete general design, including architectural and structural design",
+        "excel-import"
       ]
     },
     {
@@ -5352,6 +5469,857 @@
         "Europe",
         "Budapest",
         "Feasibility Study - General Design"
+      ]
+    },
+    {
+      "id": "excel-2",
+      "slug": "2-kimbell-art-museum-expansion",
+      "title": "Kimbell Art Museum expansion",
+      "title_en": "Kimbell Art Museum expansion",
+      "title_hu": "Kimbell Art Museum",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Public - Kimbell Art Museum expansion - USA - Kimbell Art Museum expansion - USA",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "USA",
+      "city": "USA",
+      "region": null,
+      "country": "United States",
+      "country_code": "US",
+      "continent": "Americas",
+      "latitude": 32.748485,
+      "longitude": -97.364759,
+      "category_primary": "Public / Civic",
+      "category_color": "#7B8794",
+      "work_type": "Public",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/32.748485,+-97.364759?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=3116fd9f-f5f8-4447-9f1a-6560af9843d5&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Public",
+        "Kimbell Art Museum expansion",
+        "United States",
+        "USA"
+      ]
+    },
+    {
+      "id": "excel-3",
+      "slug": "3-kronochem-alabama",
+      "title": "Kronochem Alabama",
+      "title_en": "Kronochem Alabama",
+      "title_hu": "Kronospan Alabama",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - Kronochem Alabama - USA - Kronochem Alabama - USA",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "USA",
+      "city": "USA",
+      "region": null,
+      "country": "United States",
+      "country_code": "US",
+      "continent": "Americas",
+      "latitude": 33.614092,
+      "longitude": -85.973966,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/33.614092,+-85.973966?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=70e524b0-2211-4e45-b935-0d0243120247&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-3/01.jpg",
+          "local_path": "/mmi-data/images/imported/excel-3/01.jpg",
+          "alt": "excel-3"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "Kronochem Alabama",
+        "United States",
+        "USA"
+      ]
+    },
+    {
+      "id": "excel-7",
+      "slug": "7-king-abdullah-petroleum-studies-and-research",
+      "title": "King Abdullah Petroleum Studies and Research",
+      "title_en": "King Abdullah Petroleum Studies and Research",
+      "title_hu": "SA Kapsarc",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Public - King Abdullah Petroleum Studies and Research - Saudi Arabia - King Abdullah Petroleum Studies and Research - Saudi Arabia",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Saudi Arabia",
+      "city": "Saudi Arabia",
+      "region": null,
+      "country": "Saudi Arabia",
+      "country_code": "SA",
+      "continent": "Asia",
+      "latitude": 24.875251,
+      "longitude": 46.722467,
+      "category_primary": "Public / Civic",
+      "category_color": "#7B8794",
+      "work_type": "Public",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/24.875251,+46.722467?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=ac0bf5ba-f84e-4878-a2f5-4fb4cfa5660c&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Public",
+        "King Abdullah Petroleum Studies and Research",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "id": "excel-8",
+      "slug": "8-yanbu-cement-company",
+      "title": "Yanbu Cement Company",
+      "title_en": "Yanbu Cement Company",
+      "title_hu": "SA Yanbu",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Cement - Yanbu Cement Company - Saudi Arabia - Yanbu Cement Company - Saudi Arabia",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Saudi Arabia",
+      "city": "Saudi Arabia",
+      "region": null,
+      "country": "Saudi Arabia",
+      "country_code": "SA",
+      "continent": "Asia",
+      "latitude": 24.2812,
+      "longitude": 37.565734,
+      "category_primary": "Cement Industry",
+      "category_color": "#6F7865",
+      "work_type": "Cement",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/24.281200,+37.565734?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=780706f7-ba27-4442-834f-4a8c27230d2f&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Cement",
+        "Yanbu Cement Company",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "id": "excel-10",
+      "slug": "10-pt-holcim-indonesia",
+      "title": "PT Holcim Indonesia",
+      "title_en": "PT Holcim Indonesia",
+      "title_hu": "Tuban",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Cement - PT Holcim Indonesia - PT Holcim Indonesia",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Indonesia",
+      "country_code": "ID",
+      "continent": "Asia",
+      "latitude": -6.814509,
+      "longitude": 111.885081,
+      "category_primary": "Cement Industry",
+      "category_color": "#6F7865",
+      "work_type": "Cement",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/-6.814509,+111.885081?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=a3024315-3047-4f04-b683-faed367ceaf8&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Cement",
+        "PT Holcim Indonesia",
+        "Indonesia"
+      ]
+    },
+    {
+      "id": "excel-11",
+      "slug": "11-quang-tri-vrg",
+      "title": "Quang Tri Vrg",
+      "title_en": "Quang Tri Vrg",
+      "title_hu": "IMAL Vietnam",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Wood - Quang Tri Vrg - Vietnam - Quang Tri Vrg - Vietnam",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Vietnam",
+      "city": "Vietnam",
+      "region": null,
+      "country": "Vietnam",
+      "country_code": "VN",
+      "continent": "Asia",
+      "latitude": 16.793386,
+      "longitude": 107.11536,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Wood",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/16.793386,+107.115360?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=a9008e55-6ddf-4ed2-b17b-fc4eb00457c9&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Wood",
+        "Quang Tri Vrg",
+        "Vietnam"
+      ]
+    },
+    {
+      "id": "excel-12",
+      "slug": "12-land-rover",
+      "title": "Land Rover",
+      "title_en": "Land Rover",
+      "title_hu": "Anglia BMW Solihull",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Automotive - Land Rover - Solihull, UK - Land Rover - Solihull, UK",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Solihull, UK",
+      "city": "Solihull",
+      "region": "UK",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "continent": "Europe",
+      "latitude": 52.435953,
+      "longitude": -1.775975,
+      "category_primary": "Automotive",
+      "category_color": "#546A93",
+      "work_type": "Automotive",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/52.435953,+-1.775975?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=f2742333-db8b-474b-9673-0bc1bc52c77e&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Automotive",
+        "Land Rover",
+        "Solihull",
+        "United Kingdom"
+      ]
+    },
+    {
+      "id": "excel-13",
+      "slug": "13-smart",
+      "title": "Smart",
+      "title_en": "Smart",
+      "title_hu": "Smart Franciao",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Automotive - Smart - Hambach, France - Smart - Hambach, France",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Hambach, France",
+      "city": "Hambach",
+      "region": null,
+      "country": "France",
+      "country_code": "FR",
+      "continent": "Europe",
+      "latitude": 49.049985,
+      "longitude": 7.039972,
+      "category_primary": "Automotive",
+      "category_color": "#546A93",
+      "work_type": "Automotive",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/49.049985,+7.039972?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=10ab8162-7e36-4897-a94d-88301b0ac317&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Automotive",
+        "Smart",
+        "France",
+        "Hambach"
+      ]
+    },
+    {
+      "id": "excel-14",
+      "slug": "14-opel",
+      "title": "Opel",
+      "title_en": "Opel",
+      "title_hu": "Németo. Opel",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Automotive - Opel - Rüsselsheim, Germany - Opel - Rüsselsheim, Germany",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Rüsselsheim, Germany",
+      "city": "Rüsselsheim",
+      "region": null,
+      "country": "Germany",
+      "country_code": "DE",
+      "continent": "Europe",
+      "latitude": 49.990255,
+      "longitude": 8.394607,
+      "category_primary": "Automotive",
+      "category_color": "#546A93",
+      "work_type": "Automotive",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/49.990255,+8.394607?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=d113af56-0df6-4e54-95ae-63302dafff9b&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Automotive",
+        "Opel",
+        "Germany",
+        "Rüsselsheim"
+      ]
+    },
+    {
+      "id": "excel-15",
+      "slug": "15-vw",
+      "title": "VW",
+      "title_en": "VW",
+      "title_hu": "VW Pozsony",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Automotive - VW - Bratislava, Slovakia - VW - Bratislava, Slovakia",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Bratislava, Slovakia",
+      "city": "Bratislava",
+      "region": null,
+      "country": "Slovakia",
+      "country_code": "SK",
+      "continent": "Europe",
+      "latitude": 48.234239,
+      "longitude": 16.979948,
+      "category_primary": "Automotive",
+      "category_color": "#546A93",
+      "work_type": "Automotive",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/48.234239,+16.979948?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=e4774b5b-a91b-496c-9bf0-ba092ab81dac&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Automotive",
+        "VW",
+        "Slovakia",
+        "Bratislava"
+      ]
+    },
+    {
+      "id": "excel-17",
+      "slug": "17-cimpor-industria-de-cimentos",
+      "title": "Cimpor Indústria de Cimentos",
+      "title_en": "Cimpor Indústria de Cimentos",
+      "title_hu": "Portugal FLS",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Cement - Cimpor Indústria de Cimentos - Souselas, Portugal - Cimpor Indústria de Cimentos - Souselas, Portugal",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Souselas, Portugal",
+      "city": "Souselas",
+      "region": null,
+      "country": "Portugal",
+      "country_code": "PT",
+      "continent": "Europe",
+      "latitude": 40.291503,
+      "longitude": -8.418638,
+      "category_primary": "Cement Industry",
+      "category_color": "#6F7865",
+      "work_type": "Cement",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/40.291503,+-8.418638?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=4a94adb5-ff02-4932-942c-8bc5c344e00a&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Cement",
+        "Cimpor Indústria de Cimentos",
+        "Portugal",
+        "Souselas"
+      ]
+    },
+    {
+      "id": "excel-19",
+      "slug": "19-schwenk-zement",
+      "title": "Schwenk Zement",
+      "title_en": "Schwenk Zement",
+      "title_hu": "Schwenk Zement Allmendingen",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Cement - Schwenk Zement - Allmendingen, Germany - Schwenk Zement - Allmendingen, Germany",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Allmendingen, Germany",
+      "city": "Allmendingen",
+      "region": null,
+      "country": "Germany",
+      "country_code": "DE",
+      "continent": "Europe",
+      "latitude": 48.333105,
+      "longitude": 9.737755,
+      "category_primary": "Cement Industry",
+      "category_color": "#6F7865",
+      "work_type": "Cement",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/48.333105,+9.737755?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=99de2202-d36d-429a-95d1-3476093c2354&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Cement",
+        "Schwenk Zement",
+        "Germany",
+        "Allmendingen"
+      ]
+    },
+    {
+      "id": "excel-20",
+      "slug": "20-heidelbergcement-georgia-kaspi-cement-plant",
+      "title": "HeidelbergCement Georgia Kaspi Cement Plant",
+      "title_en": "HeidelbergCement Georgia Kaspi Cement Plant",
+      "title_hu": "HTC Grúzia",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Cement - HeidelbergCement Georgia Kaspi Cement Plant - HeidelbergCement Georgia Kaspi Cement Plant",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Georgia",
+      "country_code": "GE",
+      "continent": "Asia",
+      "latitude": 41.917001,
+      "longitude": 44.419452,
+      "category_primary": "Cement Industry",
+      "category_color": "#6F7865",
+      "work_type": "Cement",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/41.917001,+44.419452?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=dcb3cf75-0172-4abd-9994-270bec2090ab&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Cement",
+        "HeidelbergCement Georgia Kaspi Cement Plant",
+        "Georgia"
+      ]
+    },
+    {
+      "id": "excel-21",
+      "slug": "21-nitrogenmuvek-petfurdo",
+      "title": "Nitrogénművek Pétfürdő",
+      "title_en": "Nitrogénművek Pétfürdő",
+      "title_hu": "Pét",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - Nitrogénművek Pétfürdő - Nitrogénművek Pétfürdő",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.156899,
+      "longitude": 18.136585,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.156899,+18.136585?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=e3bf2663-85f5-4578-a5f2-69e6874cad56&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-21/01.jpg",
+          "local_path": "/mmi-data/images/imported/excel-21/01.jpg",
+          "alt": "excel-21"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "Nitrogénművek Pétfürdő",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-22",
+      "slug": "22-rossi-biofuel",
+      "title": "Rossi Biofuel",
+      "title_en": "Rossi Biofuel",
+      "title_hu": "Rossi biofuel",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - Rossi Biofuel - Rossi Biofuel",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.7292,
+      "longitude": 18.197594,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.729200,+18.197594?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=78243a98-fc48-45ab-8910-7e84fbc39203&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "Rossi Biofuel",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-23",
+      "slug": "23-mol-hungarian-oil-company",
+      "title": "MOL Hungarian Oil company",
+      "title_en": "MOL Hungarian Oil company",
+      "title_hu": "műgumi",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - MOL Hungarian Oil company - Synthetic rubber plant - MOL Hungarian Oil company - Synthetic rubber plant",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Synthetic rubber plant",
+      "city": "Synthetic rubber plant",
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.916978,
+      "longitude": 21.029148,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.916978,+21.029148?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=6fd47353-8284-4919-aae3-c1f678759fdc&ucbcb=1",
+      "source_url_hu": null,
+      "images": [],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "MOL Hungarian Oil company",
+        "Synthetic rubber plant",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-24",
+      "slug": "24-mol-hungarian-oil-company",
+      "title": "MOL Hungarian Oil company",
+      "title_en": "MOL Hungarian Oil company",
+      "title_hu": "Olajterv MSA",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - MOL Hungarian Oil company - Maleic Anhydride plant - MOL Hungarian Oil company - Maleic Anhydride plant",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Maleic Anhydride plant",
+      "city": "Maleic Anhydride plant",
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.294811,
+      "longitude": 18.88883,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.294811,+18.888830?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=8b8964e0-6b01-4ade-a93c-ab6f7ce1a889&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-24/01.png",
+          "local_path": "/mmi-data/images/imported/excel-24/01.png",
+          "alt": "excel-24"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "MOL Hungarian Oil company",
+        "Maleic Anhydride plant",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-25",
+      "slug": "25-mol-hungarian-oil-company",
+      "title": "MOL Hungarian Oil company",
+      "title_en": "MOL Hungarian Oil company",
+      "title_hu": "Olajterv Hwi",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - MOL Hungarian Oil company - Hazardous waste storage - MOL Hungarian Oil company - Hazardous waste storage",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": "Hazardous waste storage",
+      "city": "Hazardous waste storage",
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.294811,
+      "longitude": 18.88883,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.294811,+18.888830?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=8b8964e0-6b01-4ade-a93c-ab6f7ce1a889&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-25/01.jpg",
+          "local_path": "/mmi-data/images/imported/excel-25/01.jpg",
+          "alt": "excel-25"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "MOL Hungarian Oil company",
+        "Hazardous waste storage",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-26",
+      "slug": "26-borsodchem-lfp-plant",
+      "title": "BorsodChem LFP plant",
+      "title_en": "BorsodChem LFP plant",
+      "title_hu": "BorsodChem LFP",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - BorsodChem LFP plant - BorsodChem LFP plant",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 48.248793,
+      "longitude": 20.64722,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/48.248793,+20.647220?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=84cbc6db-40b1-410c-a9d3-6a8217f5d9a9&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-26/01.png",
+          "local_path": "/mmi-data/images/imported/excel-26/01.png",
+          "alt": "excel-26"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "BorsodChem LFP plant",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-27",
+      "slug": "27-richter-gedeon",
+      "title": "Richter Gedeon",
+      "title_en": "Richter Gedeon",
+      "title_hu": "Richter",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Chemical - Richter Gedeon - Richter Gedeon",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.726682,
+      "longitude": 18.72732,
+      "category_primary": "Industrial",
+      "category_color": "#526D78",
+      "work_type": "Chemical",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.726682,+18.727320?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=77772cb9-ae74-4e42-9bed-b30b185a30e2&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-27/01.jpg",
+          "local_path": "/mmi-data/images/imported/excel-27/01.jpg",
+          "alt": "excel-27"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Chemical",
+        "Richter Gedeon",
+        "Hungary"
+      ]
+    },
+    {
+      "id": "excel-32",
+      "slug": "32-bpw",
+      "title": "BPW",
+      "title_en": "BPW",
+      "title_hu": "BPW",
+      "title_zh": null,
+      "description_hu": null,
+      "description_en": "Automotive - BPW - BPW",
+      "description_zh": null,
+      "year_label": null,
+      "year_from": null,
+      "year_to": null,
+      "location_text": null,
+      "city": null,
+      "region": null,
+      "country": "Hungary",
+      "country_code": "HU",
+      "continent": "Europe",
+      "latitude": 47.205431,
+      "longitude": 16.615071,
+      "category_primary": "Automotive",
+      "category_color": "#546A93",
+      "work_type": "Automotive",
+      "investor": null,
+      "client": null,
+      "contractor": null,
+      "project_manager": null,
+      "source_url": "https://www.google.com/maps/search/47.205431,+16.615071?entry=tts&g_ep=EgoyMDI2MDQxNS4wIPu8ASoASAFQAw%3D%3D&skid=3679dfad-fb0a-4daa-b05f-1a19f752f9b7&ucbcb=1",
+      "source_url_hu": null,
+      "images": [
+        {
+          "url": "https://mmi.local/imported/excel-32/01.png",
+          "local_path": "/mmi-data/images/imported/excel-32/01.png",
+          "alt": "excel-32"
+        }
+      ],
+      "tags": [
+        "excel-import",
+        "Automotive",
+        "BPW",
+        "Hungary"
       ]
     }
   ]

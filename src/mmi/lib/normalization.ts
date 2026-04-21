@@ -30,6 +30,8 @@ const COUNTRY_ALIASES: Record<string, string> = {
   kuba: "Cuba",
   cuba: "Cuba",
   magyar: "Hungary",
+  uk: "United Kingdom",
+  uae: "United Arab Emirates",
 };
 
 const CITY_COORDINATES: Record<string, [number, number]> = {
@@ -65,6 +67,18 @@ const CITY_COORDINATES: Record<string, [number, number]> = {
 };
 
 const COUNTRY_INDEX = buildCountryIndex(countries as RawCountry[]);
+const COUNTRY_COORDINATE_HINTS: Array<{
+  country: string;
+  latMin: number;
+  latMax: number;
+  lonMin: number;
+  lonMax: number;
+}> = [
+  { country: "Hungary", latMin: 45.7, latMax: 48.7, lonMin: 16.0, lonMax: 23.1 },
+  { country: "Georgia", latMin: 41.0, latMax: 44.9, lonMin: 40.0, lonMax: 47.6 },
+  { country: "Indonesia", latMin: -11.5, latMax: 6.5, lonMin: 95.0, lonMax: 141.5 },
+  { country: "United Kingdom", latMin: 49.5, latMax: 60.9, lonMin: -8.7, lonMax: 2.2 },
+];
 
 export function cleanText(value: string | null | undefined): string | null {
   if (!value) {
@@ -165,6 +179,39 @@ export function parseLocationParts(locationText: string | null | undefined): {
     country,
     coordinates: cityCoordinates,
   };
+}
+
+export function inferCountryFromCoordinates(
+  latitude: number | null | undefined,
+  longitude: number | null | undefined,
+): NormalizedCountry | null {
+  if (latitude == null || longitude == null) {
+    return null;
+  }
+
+  for (const hint of COUNTRY_COORDINATE_HINTS) {
+    if (
+      latitude >= hint.latMin &&
+      latitude <= hint.latMax &&
+      longitude >= hint.lonMin &&
+      longitude <= hint.lonMax
+    ) {
+      return COUNTRY_INDEX.get(normalizeKey(hint.country)) ?? null;
+    }
+  }
+
+  let bestCountry: NormalizedCountry | null = null;
+  let bestDistance = Number.POSITIVE_INFINITY;
+
+  for (const country of new Set(COUNTRY_INDEX.values())) {
+    const distance = Math.hypot(latitude - country.latitude, longitude - country.longitude);
+    if (distance < bestDistance) {
+      bestDistance = distance;
+      bestCountry = country;
+    }
+  }
+
+  return bestCountry;
 }
 
 function findCountry(value: string): NormalizedCountry | null {

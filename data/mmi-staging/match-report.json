@@ -1,0 +1,602 @@
+[
+  {
+    "staging_id": "row-2",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-2",
+    "matched_project_title": "Kimbell Art Museum expansion",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 15.",
+      "No confident image match found."
+    ]
+  },
+  {
+    "staging_id": "row-3",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-3",
+    "matched_project_title": "Kronochem Alabama",
+    "image_ids": [
+      "img-13"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\ipari\\kronospan.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 14.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-4",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "43",
+    "matched_project_title": "Cement plant modernization",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 8.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for the Cuba project."
+    ]
+  },
+  {
+    "staging_id": "row-5",
+    "decision": "matched_existing",
+    "confidence": 0.5,
+    "matched_project_id": "9",
+    "matched_project_title": "AmoudaCiment Cement Plant",
+    "image_ids": [
+      "img-2"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "2 image(s) selected.",
+      "Manual override: confirmed as AmoudaCiment Cement Plant."
+    ]
+  },
+  {
+    "staging_id": "row-6",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "42",
+    "matched_project_title": "ETHRB Group",
+    "image_ids": [
+      "img-2"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 11.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-7",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-7",
+    "matched_project_title": "King Abdullah Petroleum Studies and Research",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 24.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for KAPSARC."
+    ]
+  },
+  {
+    "staging_id": "row-8",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-8",
+    "matched_project_title": "Yanbu Cement Company",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 18.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for Yanbu Cement Company."
+    ]
+  },
+  {
+    "staging_id": "row-9",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "48",
+    "matched_project_title": "Power Cement new cement plant",
+    "image_ids": [
+      "img-5"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\power_cement.png"
+    ],
+    "notes": [
+      "Matched existing project with score 9.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-10",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-10",
+    "matched_project_title": "PT Holcim Indonesia",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 10.",
+      "6 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for PT Holcim Indonesia."
+    ]
+  },
+  {
+    "staging_id": "row-11",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-11",
+    "matched_project_title": "Quang Tri Vrg",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 14.",
+      "No confident image match found."
+    ]
+  },
+  {
+    "staging_id": "row-12",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-12",
+    "matched_project_title": "Land Rover",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 14.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for Land Rover Solihull."
+    ]
+  },
+  {
+    "staging_id": "row-13",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-13",
+    "matched_project_title": "Smart",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 15.",
+      "No confident image match found."
+    ]
+  },
+  {
+    "staging_id": "row-14",
+    "decision": "new_project",
+    "confidence": 0.99,
+    "matched_project_id": "excel-14",
+    "matched_project_title": "Opel",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 14.",
+      "No confident image match found.",
+      "Manual override: Opel Rüsselsheim is treated as a new project and no matching local image is confirmed yet."
+    ]
+  },
+  {
+    "staging_id": "row-15",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-15",
+    "matched_project_title": "VW",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 14.",
+      "No confident image match found."
+    ]
+  },
+  {
+    "staging_id": "row-16",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "14",
+    "matched_project_title": "Kronospan - OSB plant",
+    "image_ids": [
+      "img-13"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\ipari\\kronospan.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 9.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-17",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-17",
+    "matched_project_title": "Cimpor Indústria de Cimentos",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 19.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for Cimpor Souselas."
+    ]
+  },
+  {
+    "staging_id": "row-18",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "1",
+    "matched_project_title": "Märker Zement - Project „Ofen 8” New clinker line",
+    "image_ids": [
+      "img-4"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\Märker.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 15.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-19",
+    "decision": "new_project",
+    "confidence": 0.99,
+    "matched_project_id": "excel-19",
+    "matched_project_title": "Schwenk Zement",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 15.",
+      "1 image(s) selected.",
+      "Manual override: Schwenk Zement Allmendingen is treated as a new project and no confirmed local image is assigned."
+    ]
+  },
+  {
+    "staging_id": "row-20",
+    "decision": "new_project",
+    "confidence": 0.99,
+    "matched_project_id": "excel-20",
+    "matched_project_title": "HeidelbergCement Georgia Kaspi Cement Plant",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 18.",
+      "1 image(s) selected.",
+      "Manual override: HeidelbergCement Georgia Kaspi Cement Plant is treated as a new project and no confirmed local image is assigned."
+    ]
+  },
+  {
+    "staging_id": "row-21",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-21",
+    "matched_project_title": "Nitrogénművek Pétfürdő",
+    "image_ids": [
+      "img-32"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\pet.JPG"
+    ],
+    "notes": [
+      "Matched existing project with score 8.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-22",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-22",
+    "matched_project_title": "Rossi Biofuel",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 7.",
+      "No confident image match found."
+    ]
+  },
+  {
+    "staging_id": "row-23",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-23",
+    "matched_project_title": "MOL Hungarian Oil company",
+    "image_ids": [],
+    "image_paths": [],
+    "notes": [
+      "Matched existing project with score 19.",
+      "1 image(s) selected.",
+      "Manual override: no confirmed local image is assigned for the MOL synthetic rubber project."
+    ]
+  },
+  {
+    "staging_id": "row-24",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-24",
+    "matched_project_title": "MOL Hungarian Oil company",
+    "image_ids": [
+      "img-31"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_MSA_new_reactorblokk.png"
+    ],
+    "notes": [
+      "Matched existing project with score 20.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-25",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-25",
+    "matched_project_title": "MOL Hungarian Oil company",
+    "image_ids": [
+      "img-30"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_HWI_alapanyag_tartaly.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 20.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-26",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "excel-26",
+    "matched_project_title": "BorsodChem LFP plant",
+    "image_ids": [
+      "img-29"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\BC-render.png"
+    ],
+    "notes": [
+      "Matched existing project with score 8.",
+      "1 image(s) selected.",
+      "Manual override: confirmed BorsodChem image."
+    ]
+  },
+  {
+    "staging_id": "row-27",
+    "decision": "new_project",
+    "confidence": 0.99,
+    "matched_project_id": "excel-27",
+    "matched_project_title": "Richter Gedeon",
+    "image_ids": [
+      "img-33"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\richter.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 9.",
+      "1 image(s) selected.",
+      "Manual override: this Excel row is a separate Richter industrial project, not the existing training facility."
+    ]
+  },
+  {
+    "staging_id": "row-28",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "21",
+    "matched_project_title": "Agrograin - Grain storage & Port",
+    "image_ids": [
+      "img-6"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\agrograin.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 8.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as Agrograin / Cargill grain storage and harbor."
+    ]
+  },
+  {
+    "staging_id": "row-29",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "45",
+    "matched_project_title": "Nestlé – Balaton PPVD Expansion of dry food plant",
+    "image_ids": [
+      "img-9"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\nestle.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 9.",
+      "1 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-30",
+    "decision": "matched_existing",
+    "confidence": 0.5,
+    "matched_project_id": "3",
+    "matched_project_title": "NT - Sunflower processing plant",
+    "image_ids": [
+      "img-10"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\nt.jpg"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as NT sunflower processing plant."
+    ]
+  },
+  {
+    "staging_id": "row-31",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "12",
+    "matched_project_title": "Júlia Malom - Flour mill plant extension",
+    "image_ids": [
+      "img-8"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\julia.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 8.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as Júlia mill / flour mill extension."
+    ]
+  },
+  {
+    "staging_id": "row-32",
+    "decision": "new_project",
+    "confidence": 0.5,
+    "matched_project_id": "excel-32",
+    "matched_project_title": "BPW",
+    "image_ids": [
+      "img-17"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bpw.png"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "1 image(s) selected.",
+      "Manual override: BPW is treated as a separate automotive project."
+    ]
+  },
+  {
+    "staging_id": "row-33",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "2",
+    "matched_project_title": "Schaeffler Savaria - E-mobility factory",
+    "image_ids": [
+      "img-19",
+      "img-20"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\schaeffler-emob.jpg",
+      "D:\\_KINAI\\kepek\\jarmu\\schaeffler-log.jpg"
+    ],
+    "notes": [
+      "Matched existing project with score 7.",
+      "2 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-34",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "52",
+    "matched_project_title": "Continental Hungária Kft. –Office Building, High-Bay Warehouse, and Connecting Corridor",
+    "image_ids": [
+      "img-18"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\continental.png"
+    ],
+    "notes": [
+      "Matched existing project with score 7.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as the Continental Budapest office and warehouse project."
+    ]
+  },
+  {
+    "staging_id": "row-35",
+    "decision": "matched_existing",
+    "confidence": 0.5,
+    "matched_project_id": "41",
+    "matched_project_title": "BMW – Debrecen plant",
+    "image_ids": [
+      "img-16"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bmw.jpg"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as BMW Debrecen plant."
+    ]
+  },
+  {
+    "staging_id": "row-36",
+    "decision": "matched_existing",
+    "confidence": 0.5,
+    "matched_project_id": "28",
+    "matched_project_title": "DDC - Cement Mill",
+    "image_ids": [
+      "img-1"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as DDC Vác cement mill."
+    ]
+  },
+  {
+    "staging_id": "row-37",
+    "decision": "matched_existing",
+    "confidence": 0.99,
+    "matched_project_id": "37",
+    "matched_project_title": "DDC - Clinker Silo",
+    "image_ids": [
+      "img-1",
+      "img-2",
+      "img-3",
+      "img-4",
+      "img-5"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg",
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg",
+      "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png",
+      "D:\\_KINAI\\kepek\\cement\\Märker.jpg",
+      "D:\\_KINAI\\kepek\\cement\\power_cement.png"
+    ],
+    "notes": [
+      "Matched existing project with score 8.",
+      "5 image(s) selected."
+    ]
+  },
+  {
+    "staging_id": "row-38",
+    "decision": "matched_existing",
+    "confidence": 0.5,
+    "matched_project_id": "19",
+    "matched_project_title": "Királyegyháza Cement Plant",
+    "image_ids": [
+      "img-3"
+    ],
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png"
+    ],
+    "notes": [
+      "Possible existing project match with score 6.",
+      "1 image(s) selected.",
+      "Manual override: confirmed as Királyegyháza Cement Plant."
+    ]
+  }
+]

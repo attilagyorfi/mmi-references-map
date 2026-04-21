@@ -1,0 +1,273 @@
+[
+  {
+    "project_id": "excel-2",
+    "staging_id": "row-2",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-3",
+    "staging_id": "row-3",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\ipari\\kronospan.jpg"
+    ]
+  },
+  {
+    "project_id": "43",
+    "staging_id": "row-4",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "9",
+    "staging_id": "row-5",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg"
+    ]
+  },
+  {
+    "project_id": "42",
+    "staging_id": "row-6",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg"
+    ]
+  },
+  {
+    "project_id": "excel-7",
+    "staging_id": "row-7",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-8",
+    "staging_id": "row-8",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "48",
+    "staging_id": "row-9",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\power_cement.png"
+    ]
+  },
+  {
+    "project_id": "excel-10",
+    "staging_id": "row-10",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-11",
+    "staging_id": "row-11",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-12",
+    "staging_id": "row-12",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-13",
+    "staging_id": "row-13",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-14",
+    "staging_id": "row-14",
+    "mode": "new",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-15",
+    "staging_id": "row-15",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "14",
+    "staging_id": "row-16",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\ipari\\kronospan.jpg"
+    ]
+  },
+  {
+    "project_id": "excel-17",
+    "staging_id": "row-17",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "1",
+    "staging_id": "row-18",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\Märker.jpg"
+    ]
+  },
+  {
+    "project_id": "excel-19",
+    "staging_id": "row-19",
+    "mode": "new",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-20",
+    "staging_id": "row-20",
+    "mode": "new",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-21",
+    "staging_id": "row-21",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\pet.JPG"
+    ]
+  },
+  {
+    "project_id": "excel-22",
+    "staging_id": "row-22",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-23",
+    "staging_id": "row-23",
+    "mode": "existing",
+    "image_paths": []
+  },
+  {
+    "project_id": "excel-24",
+    "staging_id": "row-24",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_MSA_new_reactorblokk.png"
+    ]
+  },
+  {
+    "project_id": "excel-25",
+    "staging_id": "row-25",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_HWI_alapanyag_tartaly.jpg"
+    ]
+  },
+  {
+    "project_id": "excel-26",
+    "staging_id": "row-26",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\BC-render.png"
+    ]
+  },
+  {
+    "project_id": "excel-27",
+    "staging_id": "row-27",
+    "mode": "new",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\richter.jpg"
+    ]
+  },
+  {
+    "project_id": "21",
+    "staging_id": "row-28",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\agrograin.jpg"
+    ]
+  },
+  {
+    "project_id": "45",
+    "staging_id": "row-29",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\nestle.jpg"
+    ]
+  },
+  {
+    "project_id": "3",
+    "staging_id": "row-30",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\nt.jpg"
+    ]
+  },
+  {
+    "project_id": "12",
+    "staging_id": "row-31",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\julia.jpg"
+    ]
+  },
+  {
+    "project_id": "excel-32",
+    "staging_id": "row-32",
+    "mode": "new",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bpw.png"
+    ]
+  },
+  {
+    "project_id": "2",
+    "staging_id": "row-33",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\schaeffler-emob.jpg",
+      "D:\\_KINAI\\kepek\\jarmu\\schaeffler-log.jpg"
+    ]
+  },
+  {
+    "project_id": "52",
+    "staging_id": "row-34",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\continental.png"
+    ]
+  },
+  {
+    "project_id": "41",
+    "staging_id": "row-35",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bmw.jpg"
+    ]
+  },
+  {
+    "project_id": "28",
+    "staging_id": "row-36",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg"
+    ]
+  },
+  {
+    "project_id": "37",
+    "staging_id": "row-37",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg",
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg",
+      "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png",
+      "D:\\_KINAI\\kepek\\cement\\Märker.jpg",
+      "D:\\_KINAI\\kepek\\cement\\power_cement.png"
+    ]
+  },
+  {
+    "project_id": "19",
+    "staging_id": "row-38",
+    "mode": "existing",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png"
+    ]
+  }
+]

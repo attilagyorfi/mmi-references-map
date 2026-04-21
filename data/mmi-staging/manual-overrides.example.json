@@ -1,0 +1,23 @@
+[
+  {
+    "staging_id": "row-28",
+    "decision": "matched_existing",
+    "matched_project_id": "21",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\agrograin.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as Agrograin / Cargill grain storage and harbor."
+    ]
+  },
+  {
+    "staging_id": "row-33",
+    "decision": "needs_review",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\schaeffler-emob.jpg"
+    ],
+    "notes": [
+      "Manual override: keep only the confirmed Schaeffler e-mobility image."
+    ]
+  }
+]

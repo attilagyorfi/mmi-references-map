@@ -4,6 +4,7 @@ import { describe, it } from "node:test";
 import { inferCategory } from "@/mmi/lib/classification";
 import {
   dedupeStrings,
+  inferCountryFromCoordinates,
   normalizeCountryFromLocation,
   parseYearLabel,
 } from "@/mmi/lib/normalization";
@@ -34,6 +35,14 @@ describe("MMI normalization", () => {
       normalizeCountryFromLocation("Harburg, Bavaria, Germany")?.country,
       "Germany",
     );
+
+    assert.equal(normalizeCountryFromLocation("Solihull, UK")?.country, "United Kingdom");
+  });
+
+  it("infers countries from project coordinates when location text is missing", () => {
+    assert.equal(inferCountryFromCoordinates(47.156899, 18.136585)?.country, "Hungary");
+    assert.equal(inferCountryFromCoordinates(41.917001, 44.419452)?.country, "Georgia");
+    assert.equal(inferCountryFromCoordinates(-6.814509, 111.885081)?.country, "Indonesia");
   });
 
   it("deduplicates strings while preserving the first useful value", () => {

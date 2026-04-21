@@ -13,7 +13,14 @@
     "mmi:db:init": "tsx scripts/mmi/db-init.ts",
     "mmi:db:import": "tsx scripts/mmi/db-import.ts",
     "mmi:db:export": "tsx scripts/mmi/db-export.ts",
-    "mmi:pwa-assets": "tsx scripts/mmi/build-pwa-assets.ts"
+    "mmi:pwa-assets": "tsx scripts/mmi/build-pwa-assets.ts",
+    "mmi:excel-import": "tsx scripts/mmi/import-excel.ts",
+    "mmi:image-index": "tsx scripts/mmi/index-images.ts",
+    "mmi:match": "tsx scripts/mmi/match-projects.ts",
+    "mmi:merge": "tsx scripts/mmi/merge-staging.ts",
+    "mmi:copy-images": "tsx scripts/mmi/copy-matched-images.ts",
+    "mmi:excel-pipeline": "pnpm run mmi:excel-import && pnpm run mmi:image-index && pnpm run mmi:match && pnpm run mmi:merge",
+    "mmi:excel-apply": "pnpm run mmi:excel-pipeline && pnpm run mmi:copy-images && pnpm run mmi:validate && pnpm run mmi:pwa-assets"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
@@ -26,6 +33,7 @@
     "topojson-client": "^3.1.0",
     "world-atlas": "^2.0.2",
     "world-countries": "^5.1.0",
+    "xlsx": "^0.18.5",
     "zod": "^4.3.6"
   },
   "devDependencies": {

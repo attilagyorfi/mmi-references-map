@@ -1,0 +1,571 @@
+[
+  {
+    "id": "img-1",
+    "filename": "ddc-vac.jpg",
+    "stem": "ddc-vac",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg",
+    "category_folder": "cement",
+    "project_folder": "cement",
+    "normalized_terms": [
+      "ddc",
+      "vac"
+    ],
+    "alias_terms": [
+      "ddc",
+      "vac",
+      "ddc vac"
+    ]
+  },
+  {
+    "id": "img-2",
+    "filename": "elbeida.jpg",
+    "stem": "elbeida",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\cement\\elbeida.jpg",
+    "category_folder": "cement",
+    "project_folder": "cement",
+    "normalized_terms": [
+      "elbeida"
+    ],
+    "alias_terms": [
+      "elbeida",
+      "amouda",
+      "algeria"
+    ]
+  },
+  {
+    "id": "img-3",
+    "filename": "kiralyegyhaza.png",
+    "stem": "kiralyegyhaza",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png",
+    "category_folder": "cement",
+    "project_folder": "cement",
+    "normalized_terms": [
+      "kiralyegyhaza"
+    ],
+    "alias_terms": [
+      "kiralyegyhaza",
+      "kiralyegyhaza holcim",
+      "kegyhaza"
+    ]
+  },
+  {
+    "id": "img-4",
+    "filename": "Märker.jpg",
+    "stem": "Märker",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\cement\\Märker.jpg",
+    "category_folder": "cement",
+    "project_folder": "cement",
+    "normalized_terms": [
+      "marker"
+    ],
+    "alias_terms": [
+      "marker",
+      "märker",
+      "harburg"
+    ]
+  },
+  {
+    "id": "img-5",
+    "filename": "power_cement.png",
+    "stem": "power_cement",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\cement\\power_cement.png",
+    "category_folder": "cement",
+    "project_folder": "cement",
+    "normalized_terms": [
+      "power",
+      "cement"
+    ],
+    "alias_terms": [
+      "power",
+      "cement",
+      "power cement",
+      "pakisztan",
+      "pakistan"
+    ]
+  },
+  {
+    "id": "img-6",
+    "filename": "agrograin.jpg",
+    "stem": "agrograin",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\elelmiszer\\agrograin.jpg",
+    "category_folder": "elelmiszer",
+    "project_folder": "elelmiszer",
+    "normalized_terms": [
+      "agrograin"
+    ],
+    "alias_terms": [
+      "agrograin",
+      "foldvari",
+      "cargill"
+    ]
+  },
+  {
+    "id": "img-7",
+    "filename": "cukorgyar.jpg",
+    "stem": "cukorgyar",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\elelmiszer\\cukorgyar.jpg",
+    "category_folder": "elelmiszer",
+    "project_folder": "elelmiszer",
+    "normalized_terms": [
+      "cukorgyar"
+    ],
+    "alias_terms": [
+      "cukorgyar",
+      "sugar",
+      "sugar factory"
+    ]
+  },
+  {
+    "id": "img-8",
+    "filename": "julia.jpg",
+    "stem": "julia",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\elelmiszer\\julia.jpg",
+    "category_folder": "elelmiszer",
+    "project_folder": "elelmiszer",
+    "normalized_terms": [
+      "julia"
+    ],
+    "alias_terms": [
+      "julia",
+      "malom",
+      "julia mill"
+    ]
+  },
+  {
+    "id": "img-9",
+    "filename": "nestle.jpg",
+    "stem": "nestle",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\elelmiszer\\nestle.jpg",
+    "category_folder": "elelmiszer",
+    "project_folder": "elelmiszer",
+    "normalized_terms": [
+      "nestle"
+    ],
+    "alias_terms": [
+      "nestle",
+      "purina",
+      "buk"
+    ]
+  },
+  {
+    "id": "img-10",
+    "filename": "nt.jpg",
+    "stem": "nt",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\elelmiszer\\nt.jpg",
+    "category_folder": "elelmiszer",
+    "project_folder": "elelmiszer",
+    "normalized_terms": [
+      "nt"
+    ],
+    "alias_terms": [
+      "nt",
+      "sunflower"
+    ]
+  },
+  {
+    "id": "img-11",
+    "filename": "falco.jpg",
+    "stem": "falco",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\ipari\\falco.jpg",
+    "category_folder": "ipari",
+    "project_folder": "ipari",
+    "normalized_terms": [
+      "falco"
+    ],
+    "alias_terms": [
+      "falco"
+    ]
+  },
+  {
+    "id": "img-12",
+    "filename": "koka.JPG",
+    "stem": "koka",
+    "extension": ".JPG",
+    "full_path": "D:\\_KINAI\\kepek\\ipari\\koka.JPG",
+    "category_folder": "ipari",
+    "project_folder": "ipari",
+    "normalized_terms": [
+      "koka"
+    ],
+    "alias_terms": [
+      "koka",
+      "kobanya",
+      "quarry"
+    ]
+  },
+  {
+    "id": "img-13",
+    "filename": "kronospan.jpg",
+    "stem": "kronospan",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\ipari\\kronospan.jpg",
+    "category_folder": "ipari",
+    "project_folder": "ipari",
+    "normalized_terms": [
+      "kronospan"
+    ],
+    "alias_terms": [
+      "kronospan",
+      "strzelce",
+      "osb",
+      "alabama",
+      "kronochem"
+    ]
+  },
+  {
+    "id": "img-14",
+    "filename": "tkse.jpg",
+    "stem": "tkse",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\ipari\\tkse.jpg",
+    "category_folder": "ipari",
+    "project_folder": "ipari",
+    "normalized_terms": [
+      "tkse"
+    ],
+    "alias_terms": [
+      "tkse"
+    ]
+  },
+  {
+    "id": "img-15",
+    "filename": "viztorony.png",
+    "stem": "viztorony",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\ipari\\viztorony.png",
+    "category_folder": "ipari",
+    "project_folder": "ipari",
+    "normalized_terms": [
+      "viztorony"
+    ],
+    "alias_terms": [
+      "viztorony",
+      "water tower"
+    ]
+  },
+  {
+    "id": "img-16",
+    "filename": "bmw.jpg",
+    "stem": "bmw",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\jarmu\\bmw.jpg",
+    "category_folder": "jarmu",
+    "project_folder": "jarmu",
+    "normalized_terms": [
+      "bmw"
+    ],
+    "alias_terms": [
+      "bmw"
+    ]
+  },
+  {
+    "id": "img-17",
+    "filename": "bpw.png",
+    "stem": "bpw",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\jarmu\\bpw.png",
+    "category_folder": "jarmu",
+    "project_folder": "jarmu",
+    "normalized_terms": [
+      "bpw"
+    ],
+    "alias_terms": [
+      "bpw"
+    ]
+  },
+  {
+    "id": "img-18",
+    "filename": "continental.png",
+    "stem": "continental",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\jarmu\\continental.png",
+    "category_folder": "jarmu",
+    "project_folder": "jarmu",
+    "normalized_terms": [
+      "continental"
+    ],
+    "alias_terms": [
+      "continental"
+    ]
+  },
+  {
+    "id": "img-19",
+    "filename": "schaeffler-emob.jpg",
+    "stem": "schaeffler-emob",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\jarmu\\schaeffler-emob.jpg",
+    "category_folder": "jarmu",
+    "project_folder": "jarmu",
+    "normalized_terms": [
+      "schaeffler",
+      "emob"
+    ],
+    "alias_terms": [
+      "schaeffler",
+      "emob",
+      "e mobility"
+    ]
+  },
+  {
+    "id": "img-20",
+    "filename": "schaeffler-log.jpg",
+    "stem": "schaeffler-log",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\jarmu\\schaeffler-log.jpg",
+    "category_folder": "jarmu",
+    "project_folder": "jarmu",
+    "normalized_terms": [
+      "schaeffler",
+      "log"
+    ],
+    "alias_terms": [
+      "schaeffler",
+      "log",
+      "logistic"
+    ]
+  },
+  {
+    "id": "img-21",
+    "filename": "12-1.jpg",
+    "stem": "12-1",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\12-1.jpg",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "12",
+      "1"
+    ],
+    "alias_terms": [
+      "12",
+      "1"
+    ]
+  },
+  {
+    "id": "img-22",
+    "filename": "1763649162-1415025195.webp",
+    "stem": "1763649162-1415025195",
+    "extension": ".webp",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\1763649162-1415025195.webp",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "1763649162",
+      "1415025195"
+    ],
+    "alias_terms": [
+      "1763649162",
+      "1415025195"
+    ]
+  },
+  {
+    "id": "img-23",
+    "filename": "1763649162-369787982.webp",
+    "stem": "1763649162-369787982",
+    "extension": ".webp",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\1763649162-369787982.webp",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "1763649162",
+      "369787982"
+    ],
+    "alias_terms": [
+      "1763649162",
+      "369787982"
+    ]
+  },
+  {
+    "id": "img-24",
+    "filename": "1763649162-719786637.webp",
+    "stem": "1763649162-719786637",
+    "extension": ".webp",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\1763649162-719786637.webp",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "1763649162",
+      "719786637"
+    ],
+    "alias_terms": [
+      "1763649162",
+      "719786637"
+    ]
+  },
+  {
+    "id": "img-25",
+    "filename": "18-1.png",
+    "stem": "18-1",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\18-1.png",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "18",
+      "1"
+    ],
+    "alias_terms": [
+      "18",
+      "1"
+    ]
+  },
+  {
+    "id": "img-26",
+    "filename": "dij.PNG",
+    "stem": "dij",
+    "extension": ".PNG",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\dij.PNG",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "dij"
+    ],
+    "alias_terms": [
+      "dij"
+    ]
+  },
+  {
+    "id": "img-27",
+    "filename": "images_Cikkek_helyzet201411_helyzet6.jpg",
+    "stem": "images_Cikkek_helyzet201411_helyzet6",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\images_Cikkek_helyzet201411_helyzet6.jpg",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "images",
+      "cikkek",
+      "helyzet201411",
+      "helyzet6"
+    ],
+    "alias_terms": [
+      "images",
+      "cikkek",
+      "helyzet201411",
+      "helyzet6"
+    ]
+  },
+  {
+    "id": "img-28",
+    "filename": "P1050663.png",
+    "stem": "P1050663",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\kiralyegyhaza\\P1050663.png",
+    "category_folder": "kiralyegyhaza",
+    "project_folder": "kiralyegyhaza",
+    "normalized_terms": [
+      "p1050663"
+    ],
+    "alias_terms": [
+      "p1050663"
+    ]
+  },
+  {
+    "id": "img-29",
+    "filename": "BC-render.png",
+    "stem": "BC-render",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\vegyipar\\BC-render.png",
+    "category_folder": "vegyipar",
+    "project_folder": "vegyipar",
+    "normalized_terms": [
+      "bc",
+      "render"
+    ],
+    "alias_terms": [
+      "bc",
+      "render",
+      "borsodchem",
+      "lfp"
+    ]
+  },
+  {
+    "id": "img-30",
+    "filename": "Olajterv_HWI_alapanyag_tartaly.jpg",
+    "stem": "Olajterv_HWI_alapanyag_tartaly",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_HWI_alapanyag_tartaly.jpg",
+    "category_folder": "vegyipar",
+    "project_folder": "vegyipar",
+    "normalized_terms": [
+      "olajterv",
+      "hwi",
+      "alapanyag",
+      "tartaly"
+    ],
+    "alias_terms": [
+      "olajterv",
+      "hwi",
+      "alapanyag",
+      "tartaly",
+      "hazardous waste"
+    ]
+  },
+  {
+    "id": "img-31",
+    "filename": "Olajterv_MSA_new_reactorblokk.png",
+    "stem": "Olajterv_MSA_new_reactorblokk",
+    "extension": ".png",
+    "full_path": "D:\\_KINAI\\kepek\\vegyipar\\Olajterv_MSA_new_reactorblokk.png",
+    "category_folder": "vegyipar",
+    "project_folder": "vegyipar",
+    "normalized_terms": [
+      "olajterv",
+      "msa",
+      "new",
+      "reactorblokk"
+    ],
+    "alias_terms": [
+      "olajterv",
+      "msa",
+      "new",
+      "reactorblokk",
+      "maleic anhydride"
+    ]
+  },
+  {
+    "id": "img-32",
+    "filename": "pet.JPG",
+    "stem": "pet",
+    "extension": ".JPG",
+    "full_path": "D:\\_KINAI\\kepek\\vegyipar\\pet.JPG",
+    "category_folder": "vegyipar",
+    "project_folder": "vegyipar",
+    "normalized_terms": [
+      "pet"
+    ],
+    "alias_terms": [
+      "pet",
+      "petfuerdo",
+      "petfurdo",
+      "nitrogenmuvek"
+    ]
+  },
+  {
+    "id": "img-33",
+    "filename": "richter.jpg",
+    "stem": "richter",
+    "extension": ".jpg",
+    "full_path": "D:\\_KINAI\\kepek\\vegyipar\\richter.jpg",
+    "category_folder": "vegyipar",
+    "project_folder": "vegyipar",
+    "normalized_terms": [
+      "richter"
+    ],
+    "alias_terms": [
+      "richter",
+      "gedeon"
+    ]
+  }
+]

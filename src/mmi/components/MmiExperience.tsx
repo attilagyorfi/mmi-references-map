@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
@@ -20,9 +21,13 @@ import type {
   MmiProject,
 } from "@/mmi/types";
 
-import MmiMap from "./MmiMap";
 import PwaInstallButton from "./PwaInstallButton";
 import ProjectPanel from "./ProjectPanel";
+
+const MmiMap = dynamic(() => import("./MmiMap"), {
+  ssr: false,
+  loading: () => <div className="mmi-map-loading">Loading map...</div>,
+});
 
 export default function MmiExperience() {
   const [language, setLanguage] = useState<Language>("en");

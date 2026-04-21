@@ -1,0 +1,192 @@
+[
+  {
+    "staging_id": "row-4",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for the Cuba project."
+    ]
+  },
+  {
+    "staging_id": "row-5",
+    "decision": "matched_existing",
+    "matched_project_id": "9",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\elbeida.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as AmoudaCiment Cement Plant."
+    ]
+  },
+  {
+    "staging_id": "row-7",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for KAPSARC."
+    ]
+  },
+  {
+    "staging_id": "row-8",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for Yanbu Cement Company."
+    ]
+  },
+  {
+    "staging_id": "row-10",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for PT Holcim Indonesia."
+    ]
+  },
+  {
+    "staging_id": "row-12",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for Land Rover Solihull."
+    ]
+  },
+  {
+    "staging_id": "row-14",
+    "decision": "new_project",
+    "image_paths": [],
+    "notes": [
+      "Manual override: Opel Rüsselsheim is treated as a new project and no matching local image is confirmed yet."
+    ]
+  },
+  {
+    "staging_id": "row-17",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for Cimpor Souselas."
+    ]
+  },
+  {
+    "staging_id": "row-19",
+    "decision": "new_project",
+    "image_paths": [],
+    "notes": [
+      "Manual override: Schwenk Zement Allmendingen is treated as a new project and no confirmed local image is assigned."
+    ]
+  },
+  {
+    "staging_id": "row-20",
+    "decision": "new_project",
+    "image_paths": [],
+    "notes": [
+      "Manual override: HeidelbergCement Georgia Kaspi Cement Plant is treated as a new project and no confirmed local image is assigned."
+    ]
+  },
+  {
+    "staging_id": "row-27",
+    "decision": "new_project",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\richter.jpg"
+    ],
+    "notes": [
+      "Manual override: this Excel row is a separate Richter industrial project, not the existing training facility."
+    ]
+  },
+  {
+    "staging_id": "row-23",
+    "image_paths": [],
+    "notes": [
+      "Manual override: no confirmed local image is assigned for the MOL synthetic rubber project."
+    ]
+  },
+  {
+    "staging_id": "row-26",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\vegyipar\\BC-render.png"
+    ],
+    "notes": [
+      "Manual override: confirmed BorsodChem image."
+    ]
+  },
+  {
+    "staging_id": "row-28",
+    "decision": "matched_existing",
+    "matched_project_id": "21",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\agrograin.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as Agrograin / Cargill grain storage and harbor."
+    ]
+  },
+  {
+    "staging_id": "row-30",
+    "decision": "matched_existing",
+    "matched_project_id": "3",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\nt.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as NT sunflower processing plant."
+    ]
+  },
+  {
+    "staging_id": "row-31",
+    "decision": "matched_existing",
+    "matched_project_id": "12",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\elelmiszer\\julia.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as Júlia mill / flour mill extension."
+    ]
+  },
+  {
+    "staging_id": "row-32",
+    "decision": "new_project",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bpw.png"
+    ],
+    "notes": [
+      "Manual override: BPW is treated as a separate automotive project."
+    ]
+  },
+  {
+    "staging_id": "row-34",
+    "decision": "matched_existing",
+    "matched_project_id": "52",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\continental.png"
+    ],
+    "notes": [
+      "Manual override: confirmed as the Continental Budapest office and warehouse project."
+    ]
+  },
+  {
+    "staging_id": "row-35",
+    "decision": "matched_existing",
+    "matched_project_id": "41",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\jarmu\\bmw.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as BMW Debrecen plant."
+    ]
+  },
+  {
+    "staging_id": "row-36",
+    "decision": "matched_existing",
+    "matched_project_id": "28",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\ddc-vac.jpg"
+    ],
+    "notes": [
+      "Manual override: confirmed as DDC Vác cement mill."
+    ]
+  },
+  {
+    "staging_id": "row-38",
+    "decision": "matched_existing",
+    "matched_project_id": "19",
+    "image_paths": [
+      "D:\\_KINAI\\kepek\\cement\\kiralyegyhaza.png"
+    ],
+    "notes": [
+      "Manual override: confirmed as Királyegyháza Cement Plant."
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T17:29:56.850Z",
+  "generated_at": "2026-04-21T12:46:13.130Z",
   "strategy": "Core app assets and first project thumbnails are pre-cached. Full galleries are cached on first view.",
   "assets": [
     "/",
@@ -52,6 +52,7 @@
     "/mmi-data/images/38/01.webp",
     "/mmi-data/images/40/01.webp",
     "/mmi-data/images/41/01.webp",
+    "/mmi-data/images/imported/42/01.jpg",
     "/mmi-data/images/43/01.webp",
     "/mmi-data/images/44/01.webp",
     "/mmi-data/images/45/01.webp",
@@ -61,6 +62,13 @@
     "/mmi-data/images/51/01.webp",
     "/mmi-data/images/52/01.png",
     "/mmi-data/images/53/01.png",
-    "/mmi-data/images/54/01.jpg"
+    "/mmi-data/images/54/01.jpg",
+    "/mmi-data/images/imported/excel-3/01.jpg",
+    "/mmi-data/images/imported/excel-21/01.jpg",
+    "/mmi-data/images/imported/excel-24/01.png",
+    "/mmi-data/images/imported/excel-25/01.jpg",
+    "/mmi-data/images/imported/excel-26/01.png",
+    "/mmi-data/images/imported/excel-27/01.jpg",
+    "/mmi-data/images/imported/excel-32/01.png"
   ]
 }
